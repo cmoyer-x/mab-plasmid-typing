@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# Large/derived outputs - regenerate via the pipeline rather than committing
+plasmids/
+plasmids_expanded/
+plasmid_phamclust/
+*.tsv
+blast_tmp/
+pham_raw/
+phamclust_input/
+phamclust_results/
