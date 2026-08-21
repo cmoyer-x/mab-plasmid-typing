@@ -1,0 +1,836 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /Users/CAM920/.macsyfinder/models/defense-finder-models/profiles/VP1853__VP1853.hmm
+# target sequence database:        /Users/CAM920/Desktop/mab-plasmid-typing/pB_type_nucleotide.prt_defensefinder.prt
+# output directed to file:         /Users/CAM920/Desktop/mab-plasmid-typing/defense-finder-tmp/DefenseFinder/hmmer_results/VP1853__VP1853.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       VP1853__VP1853  [M=269]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+   9.4e-102  335.5   0.0     1e-101  335.3   0.0    1.0  1  GD105_22_6             # 6853 # 7674 # -1 # ID=1_6;partial=00
+   9.4e-102  335.5   0.0     1e-101  335.3   0.0    1.0  1  GD106_29_6             # 6853 # 7674 # -1 # ID=1_6;partial=00
+   9.4e-102  335.5   0.0     1e-101  335.3   0.0    1.0  1  GD108A_23_6            # 6853 # 7674 # -1 # ID=1_6;partial=00
+   9.4e-102  335.5   0.0     1e-101  335.3   0.0    1.0  1  GD108B_21_6            # 6853 # 7674 # -1 # ID=1_6;partial=00
+   9.4e-102  335.5   0.0     1e-101  335.3   0.0    1.0  1  GD177_20_6             # 6853 # 7674 # -1 # ID=1_6;partial=00
+   9.4e-102  335.5   0.0     1e-101  335.3   0.0    1.0  1  GD187_12_6             # 6853 # 7674 # -1 # ID=1_6;partial=00
+   9.4e-102  335.5   0.0     1e-101  335.3   0.0    1.0  1  GD18_29_6              # 6853 # 7674 # -1 # ID=1_6;partial=00
+   9.4e-102  335.5   0.0     1e-101  335.3   0.0    1.0  1  GD205_39_6             # 6853 # 7674 # -1 # ID=1_6;partial=00
+   9.4e-102  335.5   0.0     1e-101  335.3   0.0    1.0  1  GD210_9_6              # 6853 # 7674 # -1 # ID=1_6;partial=00
+   9.4e-102  335.5   0.0     1e-101  335.3   0.0    1.0  1  GD212_8_6              # 6853 # 7674 # -1 # ID=1_6;partial=00
+   9.4e-102  335.5   0.0     1e-101  335.3   0.0    1.0  1  GD231_12_6             # 6853 # 7674 # -1 # ID=1_6;partial=00
+   9.4e-102  335.5   0.0     1e-101  335.3   0.0    1.0  1  GD233A_15_6            # 6853 # 7674 # -1 # ID=1_6;partial=00
+   9.4e-102  335.5   0.0     1e-101  335.3   0.0    1.0  1  GD233B_16_6            # 6853 # 7674 # -1 # ID=1_6;partial=00
+   9.4e-102  335.5   0.0     1e-101  335.3   0.0    1.0  1  GD23_8_25              # 18093 # 18914 # 1 # ID=1_25;partial=
+   9.4e-102  335.5   0.0     1e-101  335.3   0.0    1.0  1  GD255_28_6             # 6853 # 7674 # -1 # ID=1_6;partial=00
+   9.4e-102  335.5   0.0     1e-101  335.3   0.0    1.0  1  GD295A_12_6            # 6853 # 7674 # -1 # ID=1_6;partial=00
+   9.4e-102  335.5   0.0     1e-101  335.3   0.0    1.0  1  GD297_19_6             # 6853 # 7674 # -1 # ID=1_6;partial=00
+   9.4e-102  335.5   0.0     1e-101  335.3   0.0    1.0  1  GD305B_28_6            # 6853 # 7674 # -1 # ID=1_6;partial=00
+   9.4e-102  335.5   0.0     1e-101  335.3   0.0    1.0  1  GD340_32_6             # 6853 # 7674 # -1 # ID=1_6;partial=00
+   9.4e-102  335.5   0.0     1e-101  335.3   0.0    1.0  1  GD346_16_6             # 6853 # 7674 # -1 # ID=1_6;partial=00
+   9.4e-102  335.5   0.0     1e-101  335.3   0.0    1.0  1  GD347_1B_19_6          # 6853 # 7674 # -1 # ID=1_6;partial=00
+   9.4e-102  335.5   0.0     1e-101  335.3   0.0    1.0  1  GD365_18_6             # 6853 # 7674 # -1 # ID=1_6;partial=00
+   9.4e-102  335.5   0.0     1e-101  335.3   0.0    1.0  1  GD36_37_6              # 6853 # 7674 # -1 # ID=1_6;partial=00
+   9.4e-102  335.5   0.0     1e-101  335.3   0.0    1.0  1  GD42__GD42_Plasmid1_6  # 6853 # 7674 # -1 # ID=1_6;partial=00
+   9.4e-102  335.5   0.0     1e-101  335.3   0.0    1.0  1  GD47A_16_6             # 6853 # 7674 # -1 # ID=1_6;partial=00
+   9.4e-102  335.5   0.0     1e-101  335.3   0.0    1.0  1  GD521_38_6             # 6853 # 7674 # -1 # ID=1_6;partial=00
+   9.4e-102  335.5   0.0     1e-101  335.3   0.0    1.0  1  GD62_27_6              # 6853 # 7674 # -1 # ID=1_6;partial=00
+   9.4e-102  335.5   0.0     1e-101  335.3   0.0    1.0  1  GD72_30_6              # 6853 # 7674 # -1 # ID=1_6;partial=00
+   9.4e-102  335.5   0.0     1e-101  335.3   0.0    1.0  1  GD85_35_6              # 6853 # 7674 # -1 # ID=1_6;partial=00
+   9.4e-102  335.5   0.0     1e-101  335.3   0.0    1.0  1  GD87_44_6              # 6853 # 7674 # -1 # ID=1_6;partial=00
+   9.4e-102  335.5   0.0     1e-101  335.3   0.0    1.0  1  GD95_33_6              # 6853 # 7674 # -1 # ID=1_6;partial=00
+   9.4e-102  335.5   0.0     1e-101  335.3   0.0    1.0  1  pGD69A-1_6             # 7165 # 7986 # -1 # ID=1_6;partial=00
+   9.4e-102  335.5   0.0     1e-101  335.3   0.0    1.0  1  pGD69B-1_6             # 7165 # 7986 # -1 # ID=1_6;partial=00
+    1.3e-50  167.8   0.0    1.4e-50  167.6   0.0    1.0  1  GD281A_31_6            # 6853 # 7242 # -1 # ID=1_6;partial=00
+    1.3e-50  167.8   0.0    1.4e-50  167.6   0.0    1.0  1  GD281B_32_6            # 6853 # 7242 # -1 # ID=1_6;partial=00
+
+
+Domain annotation for each sequence (and alignments):
+>> GD105_22_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  335.3   0.0  3.6e-103    1e-101       5     266 ..       4     268 ..       1     271 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 335.3 bits;  conditional E-value: 3.6e-103
+  VP1853__VP1853   5 ksfsestleaiakilgdteegltgseitrllaelkiedpdeestKwkrLynalaekqnkdqngnnvlkfiekamkParyvrkperfeelrdelne 99 
+                     +s++ + l+ +a++l+dt+ gltg ei++ll +l+++dp+++ tKwkrL++a++++qn+d++ +++++fi++am+Pa+y+++pe f+ ++d+l+e
+      GD105_22_6   4 PSWNLGVLTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQDQLDE 98 
+                     689999***************************************************************************************** PP
+
+  VP1853__VP1853 100 vLafeGleveedGkvakvekattlseaerraesLrekLeergvHpevlkyCreellkenyFhAvfEatKsvaeriReltgltkDGaeLvdkalsl 194
+                     vL f+Gl+ve++Gkv++  +++tl+ea+r+a+sLr++L++r++H evl+yC+ ellk+n FhA +EatKsv+er+R+++gl++DGa L+d+alsl
+      GD105_22_6  99 VLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQMSGLSGDGAPLIDAALSL 193
+                     *********************************************************************************************** PP
+
+  VP1853__VP1853 195 kk...pllainslqtesekseqkGfanllkglfgafRNptAHepkieweiseqdaldiLtlvSlihrrlDkavkt 266
+                      k   p++ain+l+++++++eq+Gfanl+kgl+g+fRNp AH+p+  ++++++++l++ t +Sl+hrrlD a+ t
+      GD105_22_6 194 GKsgaPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVHRRLDVATVT 268
+                     999*******************************************************************99876 PP
+
+>> GD106_29_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  335.3   0.0  3.6e-103    1e-101       5     266 ..       4     268 ..       1     271 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 335.3 bits;  conditional E-value: 3.6e-103
+  VP1853__VP1853   5 ksfsestleaiakilgdteegltgseitrllaelkiedpdeestKwkrLynalaekqnkdqngnnvlkfiekamkParyvrkperfeelrdelne 99 
+                     +s++ + l+ +a++l+dt+ gltg ei++ll +l+++dp+++ tKwkrL++a++++qn+d++ +++++fi++am+Pa+y+++pe f+ ++d+l+e
+      GD106_29_6   4 PSWNLGVLTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQDQLDE 98 
+                     689999***************************************************************************************** PP
+
+  VP1853__VP1853 100 vLafeGleveedGkvakvekattlseaerraesLrekLeergvHpevlkyCreellkenyFhAvfEatKsvaeriReltgltkDGaeLvdkalsl 194
+                     vL f+Gl+ve++Gkv++  +++tl+ea+r+a+sLr++L++r++H evl+yC+ ellk+n FhA +EatKsv+er+R+++gl++DGa L+d+alsl
+      GD106_29_6  99 VLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQMSGLSGDGAPLIDAALSL 193
+                     *********************************************************************************************** PP
+
+  VP1853__VP1853 195 kk...pllainslqtesekseqkGfanllkglfgafRNptAHepkieweiseqdaldiLtlvSlihrrlDkavkt 266
+                      k   p++ain+l+++++++eq+Gfanl+kgl+g+fRNp AH+p+  ++++++++l++ t +Sl+hrrlD a+ t
+      GD106_29_6 194 GKsgaPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVHRRLDVATVT 268
+                     999*******************************************************************99876 PP
+
+>> GD108A_23_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  335.3   0.0  3.6e-103    1e-101       5     266 ..       4     268 ..       1     271 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 335.3 bits;  conditional E-value: 3.6e-103
+  VP1853__VP1853   5 ksfsestleaiakilgdteegltgseitrllaelkiedpdeestKwkrLynalaekqnkdqngnnvlkfiekamkParyvrkperfeelrdelne 99 
+                     +s++ + l+ +a++l+dt+ gltg ei++ll +l+++dp+++ tKwkrL++a++++qn+d++ +++++fi++am+Pa+y+++pe f+ ++d+l+e
+     GD108A_23_6   4 PSWNLGVLTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQDQLDE 98 
+                     689999***************************************************************************************** PP
+
+  VP1853__VP1853 100 vLafeGleveedGkvakvekattlseaerraesLrekLeergvHpevlkyCreellkenyFhAvfEatKsvaeriReltgltkDGaeLvdkalsl 194
+                     vL f+Gl+ve++Gkv++  +++tl+ea+r+a+sLr++L++r++H evl+yC+ ellk+n FhA +EatKsv+er+R+++gl++DGa L+d+alsl
+     GD108A_23_6  99 VLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQMSGLSGDGAPLIDAALSL 193
+                     *********************************************************************************************** PP
+
+  VP1853__VP1853 195 kk...pllainslqtesekseqkGfanllkglfgafRNptAHepkieweiseqdaldiLtlvSlihrrlDkavkt 266
+                      k   p++ain+l+++++++eq+Gfanl+kgl+g+fRNp AH+p+  ++++++++l++ t +Sl+hrrlD a+ t
+     GD108A_23_6 194 GKsgaPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVHRRLDVATVT 268
+                     999*******************************************************************99876 PP
+
+>> GD108B_21_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  335.3   0.0  3.6e-103    1e-101       5     266 ..       4     268 ..       1     271 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 335.3 bits;  conditional E-value: 3.6e-103
+  VP1853__VP1853   5 ksfsestleaiakilgdteegltgseitrllaelkiedpdeestKwkrLynalaekqnkdqngnnvlkfiekamkParyvrkperfeelrdelne 99 
+                     +s++ + l+ +a++l+dt+ gltg ei++ll +l+++dp+++ tKwkrL++a++++qn+d++ +++++fi++am+Pa+y+++pe f+ ++d+l+e
+     GD108B_21_6   4 PSWNLGVLTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQDQLDE 98 
+                     689999***************************************************************************************** PP
+
+  VP1853__VP1853 100 vLafeGleveedGkvakvekattlseaerraesLrekLeergvHpevlkyCreellkenyFhAvfEatKsvaeriReltgltkDGaeLvdkalsl 194
+                     vL f+Gl+ve++Gkv++  +++tl+ea+r+a+sLr++L++r++H evl+yC+ ellk+n FhA +EatKsv+er+R+++gl++DGa L+d+alsl
+     GD108B_21_6  99 VLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQMSGLSGDGAPLIDAALSL 193
+                     *********************************************************************************************** PP
+
+  VP1853__VP1853 195 kk...pllainslqtesekseqkGfanllkglfgafRNptAHepkieweiseqdaldiLtlvSlihrrlDkavkt 266
+                      k   p++ain+l+++++++eq+Gfanl+kgl+g+fRNp AH+p+  ++++++++l++ t +Sl+hrrlD a+ t
+     GD108B_21_6 194 GKsgaPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVHRRLDVATVT 268
+                     999*******************************************************************99876 PP
+
+>> GD177_20_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  335.3   0.0  3.6e-103    1e-101       5     266 ..       4     268 ..       1     271 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 335.3 bits;  conditional E-value: 3.6e-103
+  VP1853__VP1853   5 ksfsestleaiakilgdteegltgseitrllaelkiedpdeestKwkrLynalaekqnkdqngnnvlkfiekamkParyvrkperfeelrdelne 99 
+                     +s++ + l+ +a++l+dt+ gltg ei++ll +l+++dp+++ tKwkrL++a++++qn+d++ +++++fi++am+Pa+y+++pe f+ ++d+l+e
+      GD177_20_6   4 PSWNLGVLTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQDQLDE 98 
+                     689999***************************************************************************************** PP
+
+  VP1853__VP1853 100 vLafeGleveedGkvakvekattlseaerraesLrekLeergvHpevlkyCreellkenyFhAvfEatKsvaeriReltgltkDGaeLvdkalsl 194
+                     vL f+Gl+ve++Gkv++  +++tl+ea+r+a+sLr++L++r++H evl+yC+ ellk+n FhA +EatKsv+er+R+++gl++DGa L+d+alsl
+      GD177_20_6  99 VLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQMSGLSGDGAPLIDAALSL 193
+                     *********************************************************************************************** PP
+
+  VP1853__VP1853 195 kk...pllainslqtesekseqkGfanllkglfgafRNptAHepkieweiseqdaldiLtlvSlihrrlDkavkt 266
+                      k   p++ain+l+++++++eq+Gfanl+kgl+g+fRNp AH+p+  ++++++++l++ t +Sl+hrrlD a+ t
+      GD177_20_6 194 GKsgaPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVHRRLDVATVT 268
+                     999*******************************************************************99876 PP
+
+>> GD187_12_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  335.3   0.0  3.6e-103    1e-101       5     266 ..       4     268 ..       1     271 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 335.3 bits;  conditional E-value: 3.6e-103
+  VP1853__VP1853   5 ksfsestleaiakilgdteegltgseitrllaelkiedpdeestKwkrLynalaekqnkdqngnnvlkfiekamkParyvrkperfeelrdelne 99 
+                     +s++ + l+ +a++l+dt+ gltg ei++ll +l+++dp+++ tKwkrL++a++++qn+d++ +++++fi++am+Pa+y+++pe f+ ++d+l+e
+      GD187_12_6   4 PSWNLGVLTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQDQLDE 98 
+                     689999***************************************************************************************** PP
+
+  VP1853__VP1853 100 vLafeGleveedGkvakvekattlseaerraesLrekLeergvHpevlkyCreellkenyFhAvfEatKsvaeriReltgltkDGaeLvdkalsl 194
+                     vL f+Gl+ve++Gkv++  +++tl+ea+r+a+sLr++L++r++H evl+yC+ ellk+n FhA +EatKsv+er+R+++gl++DGa L+d+alsl
+      GD187_12_6  99 VLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQMSGLSGDGAPLIDAALSL 193
+                     *********************************************************************************************** PP
+
+  VP1853__VP1853 195 kk...pllainslqtesekseqkGfanllkglfgafRNptAHepkieweiseqdaldiLtlvSlihrrlDkavkt 266
+                      k   p++ain+l+++++++eq+Gfanl+kgl+g+fRNp AH+p+  ++++++++l++ t +Sl+hrrlD a+ t
+      GD187_12_6 194 GKsgaPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVHRRLDVATVT 268
+                     999*******************************************************************99876 PP
+
+>> GD18_29_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.61
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  335.3   0.0  3.6e-103    1e-101       5     266 ..       4     268 ..       1     271 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 335.3 bits;  conditional E-value: 3.6e-103
+  VP1853__VP1853   5 ksfsestleaiakilgdteegltgseitrllaelkiedpdeestKwkrLynalaekqnkdqngnnvlkfiekamkParyvrkperfeelrdelne 99 
+                     +s++ + l+ +a++l+dt+ gltg ei++ll +l+++dp+++ tKwkrL++a++++qn+d++ +++++fi++am+Pa+y+++pe f+ ++d+l+e
+       GD18_29_6   4 PSWNLGVLTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQDQLDE 98 
+                     689999***************************************************************************************** PP
+
+  VP1853__VP1853 100 vLafeGleveedGkvakvekattlseaerraesLrekLeergvHpevlkyCreellkenyFhAvfEatKsvaeriReltgltkDGaeLvdkalsl 194
+                     vL f+Gl+ve++Gkv++  +++tl+ea+r+a+sLr++L++r++H evl+yC+ ellk+n FhA +EatKsv+er+R+++gl++DGa L+d+alsl
+       GD18_29_6  99 VLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQMSGLSGDGAPLIDAALSL 193
+                     *********************************************************************************************** PP
+
+  VP1853__VP1853 195 kk...pllainslqtesekseqkGfanllkglfgafRNptAHepkieweiseqdaldiLtlvSlihrrlDkavkt 266
+                      k   p++ain+l+++++++eq+Gfanl+kgl+g+fRNp AH+p+  ++++++++l++ t +Sl+hrrlD a+ t
+       GD18_29_6 194 GKsgaPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVHRRLDVATVT 268
+                     999*******************************************************************99876 PP
+
+>> GD205_39_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  335.3   0.0  3.6e-103    1e-101       5     266 ..       4     268 ..       1     271 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 335.3 bits;  conditional E-value: 3.6e-103
+  VP1853__VP1853   5 ksfsestleaiakilgdteegltgseitrllaelkiedpdeestKwkrLynalaekqnkdqngnnvlkfiekamkParyvrkperfeelrdelne 99 
+                     +s++ + l+ +a++l+dt+ gltg ei++ll +l+++dp+++ tKwkrL++a++++qn+d++ +++++fi++am+Pa+y+++pe f+ ++d+l+e
+      GD205_39_6   4 PSWNLGVLTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQDQLDE 98 
+                     689999***************************************************************************************** PP
+
+  VP1853__VP1853 100 vLafeGleveedGkvakvekattlseaerraesLrekLeergvHpevlkyCreellkenyFhAvfEatKsvaeriReltgltkDGaeLvdkalsl 194
+                     vL f+Gl+ve++Gkv++  +++tl+ea+r+a+sLr++L++r++H evl+yC+ ellk+n FhA +EatKsv+er+R+++gl++DGa L+d+alsl
+      GD205_39_6  99 VLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQMSGLSGDGAPLIDAALSL 193
+                     *********************************************************************************************** PP
+
+  VP1853__VP1853 195 kk...pllainslqtesekseqkGfanllkglfgafRNptAHepkieweiseqdaldiLtlvSlihrrlDkavkt 266
+                      k   p++ain+l+++++++eq+Gfanl+kgl+g+fRNp AH+p+  ++++++++l++ t +Sl+hrrlD a+ t
+      GD205_39_6 194 GKsgaPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVHRRLDVATVT 268
+                     999*******************************************************************99876 PP
+
+>> GD210_9_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.61
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  335.3   0.0  3.6e-103    1e-101       5     266 ..       4     268 ..       1     271 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 335.3 bits;  conditional E-value: 3.6e-103
+  VP1853__VP1853   5 ksfsestleaiakilgdteegltgseitrllaelkiedpdeestKwkrLynalaekqnkdqngnnvlkfiekamkParyvrkperfeelrdelne 99 
+                     +s++ + l+ +a++l+dt+ gltg ei++ll +l+++dp+++ tKwkrL++a++++qn+d++ +++++fi++am+Pa+y+++pe f+ ++d+l+e
+       GD210_9_6   4 PSWNLGVLTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQDQLDE 98 
+                     689999***************************************************************************************** PP
+
+  VP1853__VP1853 100 vLafeGleveedGkvakvekattlseaerraesLrekLeergvHpevlkyCreellkenyFhAvfEatKsvaeriReltgltkDGaeLvdkalsl 194
+                     vL f+Gl+ve++Gkv++  +++tl+ea+r+a+sLr++L++r++H evl+yC+ ellk+n FhA +EatKsv+er+R+++gl++DGa L+d+alsl
+       GD210_9_6  99 VLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQMSGLSGDGAPLIDAALSL 193
+                     *********************************************************************************************** PP
+
+  VP1853__VP1853 195 kk...pllainslqtesekseqkGfanllkglfgafRNptAHepkieweiseqdaldiLtlvSlihrrlDkavkt 266
+                      k   p++ain+l+++++++eq+Gfanl+kgl+g+fRNp AH+p+  ++++++++l++ t +Sl+hrrlD a+ t
+       GD210_9_6 194 GKsgaPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVHRRLDVATVT 268
+                     999*******************************************************************99876 PP
+
+>> GD212_8_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.61
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  335.3   0.0  3.6e-103    1e-101       5     266 ..       4     268 ..       1     271 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 335.3 bits;  conditional E-value: 3.6e-103
+  VP1853__VP1853   5 ksfsestleaiakilgdteegltgseitrllaelkiedpdeestKwkrLynalaekqnkdqngnnvlkfiekamkParyvrkperfeelrdelne 99 
+                     +s++ + l+ +a++l+dt+ gltg ei++ll +l+++dp+++ tKwkrL++a++++qn+d++ +++++fi++am+Pa+y+++pe f+ ++d+l+e
+       GD212_8_6   4 PSWNLGVLTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQDQLDE 98 
+                     689999***************************************************************************************** PP
+
+  VP1853__VP1853 100 vLafeGleveedGkvakvekattlseaerraesLrekLeergvHpevlkyCreellkenyFhAvfEatKsvaeriReltgltkDGaeLvdkalsl 194
+                     vL f+Gl+ve++Gkv++  +++tl+ea+r+a+sLr++L++r++H evl+yC+ ellk+n FhA +EatKsv+er+R+++gl++DGa L+d+alsl
+       GD212_8_6  99 VLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQMSGLSGDGAPLIDAALSL 193
+                     *********************************************************************************************** PP
+
+  VP1853__VP1853 195 kk...pllainslqtesekseqkGfanllkglfgafRNptAHepkieweiseqdaldiLtlvSlihrrlDkavkt 266
+                      k   p++ain+l+++++++eq+Gfanl+kgl+g+fRNp AH+p+  ++++++++l++ t +Sl+hrrlD a+ t
+       GD212_8_6 194 GKsgaPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVHRRLDVATVT 268
+                     999*******************************************************************99876 PP
+
+>> GD231_12_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  335.3   0.0  3.6e-103    1e-101       5     266 ..       4     268 ..       1     271 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 335.3 bits;  conditional E-value: 3.6e-103
+  VP1853__VP1853   5 ksfsestleaiakilgdteegltgseitrllaelkiedpdeestKwkrLynalaekqnkdqngnnvlkfiekamkParyvrkperfeelrdelne 99 
+                     +s++ + l+ +a++l+dt+ gltg ei++ll +l+++dp+++ tKwkrL++a++++qn+d++ +++++fi++am+Pa+y+++pe f+ ++d+l+e
+      GD231_12_6   4 PSWNLGVLTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQDQLDE 98 
+                     689999***************************************************************************************** PP
+
+  VP1853__VP1853 100 vLafeGleveedGkvakvekattlseaerraesLrekLeergvHpevlkyCreellkenyFhAvfEatKsvaeriReltgltkDGaeLvdkalsl 194
+                     vL f+Gl+ve++Gkv++  +++tl+ea+r+a+sLr++L++r++H evl+yC+ ellk+n FhA +EatKsv+er+R+++gl++DGa L+d+alsl
+      GD231_12_6  99 VLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQMSGLSGDGAPLIDAALSL 193
+                     *********************************************************************************************** PP
+
+  VP1853__VP1853 195 kk...pllainslqtesekseqkGfanllkglfgafRNptAHepkieweiseqdaldiLtlvSlihrrlDkavkt 266
+                      k   p++ain+l+++++++eq+Gfanl+kgl+g+fRNp AH+p+  ++++++++l++ t +Sl+hrrlD a+ t
+      GD231_12_6 194 GKsgaPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVHRRLDVATVT 268
+                     999*******************************************************************99876 PP
+
+>> GD233A_15_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  335.3   0.0  3.6e-103    1e-101       5     266 ..       4     268 ..       1     271 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 335.3 bits;  conditional E-value: 3.6e-103
+  VP1853__VP1853   5 ksfsestleaiakilgdteegltgseitrllaelkiedpdeestKwkrLynalaekqnkdqngnnvlkfiekamkParyvrkperfeelrdelne 99 
+                     +s++ + l+ +a++l+dt+ gltg ei++ll +l+++dp+++ tKwkrL++a++++qn+d++ +++++fi++am+Pa+y+++pe f+ ++d+l+e
+     GD233A_15_6   4 PSWNLGVLTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQDQLDE 98 
+                     689999***************************************************************************************** PP
+
+  VP1853__VP1853 100 vLafeGleveedGkvakvekattlseaerraesLrekLeergvHpevlkyCreellkenyFhAvfEatKsvaeriReltgltkDGaeLvdkalsl 194
+                     vL f+Gl+ve++Gkv++  +++tl+ea+r+a+sLr++L++r++H evl+yC+ ellk+n FhA +EatKsv+er+R+++gl++DGa L+d+alsl
+     GD233A_15_6  99 VLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQMSGLSGDGAPLIDAALSL 193
+                     *********************************************************************************************** PP
+
+  VP1853__VP1853 195 kk...pllainslqtesekseqkGfanllkglfgafRNptAHepkieweiseqdaldiLtlvSlihrrlDkavkt 266
+                      k   p++ain+l+++++++eq+Gfanl+kgl+g+fRNp AH+p+  ++++++++l++ t +Sl+hrrlD a+ t
+     GD233A_15_6 194 GKsgaPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVHRRLDVATVT 268
+                     999*******************************************************************99876 PP
+
+>> GD233B_16_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  335.3   0.0  3.6e-103    1e-101       5     266 ..       4     268 ..       1     271 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 335.3 bits;  conditional E-value: 3.6e-103
+  VP1853__VP1853   5 ksfsestleaiakilgdteegltgseitrllaelkiedpdeestKwkrLynalaekqnkdqngnnvlkfiekamkParyvrkperfeelrdelne 99 
+                     +s++ + l+ +a++l+dt+ gltg ei++ll +l+++dp+++ tKwkrL++a++++qn+d++ +++++fi++am+Pa+y+++pe f+ ++d+l+e
+     GD233B_16_6   4 PSWNLGVLTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQDQLDE 98 
+                     689999***************************************************************************************** PP
+
+  VP1853__VP1853 100 vLafeGleveedGkvakvekattlseaerraesLrekLeergvHpevlkyCreellkenyFhAvfEatKsvaeriReltgltkDGaeLvdkalsl 194
+                     vL f+Gl+ve++Gkv++  +++tl+ea+r+a+sLr++L++r++H evl+yC+ ellk+n FhA +EatKsv+er+R+++gl++DGa L+d+alsl
+     GD233B_16_6  99 VLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQMSGLSGDGAPLIDAALSL 193
+                     *********************************************************************************************** PP
+
+  VP1853__VP1853 195 kk...pllainslqtesekseqkGfanllkglfgafRNptAHepkieweiseqdaldiLtlvSlihrrlDkavkt 266
+                      k   p++ain+l+++++++eq+Gfanl+kgl+g+fRNp AH+p+  ++++++++l++ t +Sl+hrrlD a+ t
+     GD233B_16_6 194 GKsgaPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVHRRLDVATVT 268
+                     999*******************************************************************99876 PP
+
+>> GD23_8_25  # 18093 # 18914 # 1 # ID=1_25;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  335.3   0.0  3.6e-103    1e-101       5     266 ..       4     268 ..       1     271 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 335.3 bits;  conditional E-value: 3.6e-103
+  VP1853__VP1853   5 ksfsestleaiakilgdteegltgseitrllaelkiedpdeestKwkrLynalaekqnkdqngnnvlkfiekamkParyvrkperfeelrdelne 99 
+                     +s++ + l+ +a++l+dt+ gltg ei++ll +l+++dp+++ tKwkrL++a++++qn+d++ +++++fi++am+Pa+y+++pe f+ ++d+l+e
+       GD23_8_25   4 PSWNLGVLTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQDQLDE 98 
+                     689999***************************************************************************************** PP
+
+  VP1853__VP1853 100 vLafeGleveedGkvakvekattlseaerraesLrekLeergvHpevlkyCreellkenyFhAvfEatKsvaeriReltgltkDGaeLvdkalsl 194
+                     vL f+Gl+ve++Gkv++  +++tl+ea+r+a+sLr++L++r++H evl+yC+ ellk+n FhA +EatKsv+er+R+++gl++DGa L+d+alsl
+       GD23_8_25  99 VLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQMSGLSGDGAPLIDAALSL 193
+                     *********************************************************************************************** PP
+
+  VP1853__VP1853 195 kk...pllainslqtesekseqkGfanllkglfgafRNptAHepkieweiseqdaldiLtlvSlihrrlDkavkt 266
+                      k   p++ain+l+++++++eq+Gfanl+kgl+g+fRNp AH+p+  ++++++++l++ t +Sl+hrrlD a+ t
+       GD23_8_25 194 GKsgaPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVHRRLDVATVT 268
+                     999*******************************************************************99876 PP
+
+>> GD255_28_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  335.3   0.0  3.6e-103    1e-101       5     266 ..       4     268 ..       1     271 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 335.3 bits;  conditional E-value: 3.6e-103
+  VP1853__VP1853   5 ksfsestleaiakilgdteegltgseitrllaelkiedpdeestKwkrLynalaekqnkdqngnnvlkfiekamkParyvrkperfeelrdelne 99 
+                     +s++ + l+ +a++l+dt+ gltg ei++ll +l+++dp+++ tKwkrL++a++++qn+d++ +++++fi++am+Pa+y+++pe f+ ++d+l+e
+      GD255_28_6   4 PSWNLGVLTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQDQLDE 98 
+                     689999***************************************************************************************** PP
+
+  VP1853__VP1853 100 vLafeGleveedGkvakvekattlseaerraesLrekLeergvHpevlkyCreellkenyFhAvfEatKsvaeriReltgltkDGaeLvdkalsl 194
+                     vL f+Gl+ve++Gkv++  +++tl+ea+r+a+sLr++L++r++H evl+yC+ ellk+n FhA +EatKsv+er+R+++gl++DGa L+d+alsl
+      GD255_28_6  99 VLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQMSGLSGDGAPLIDAALSL 193
+                     *********************************************************************************************** PP
+
+  VP1853__VP1853 195 kk...pllainslqtesekseqkGfanllkglfgafRNptAHepkieweiseqdaldiLtlvSlihrrlDkavkt 266
+                      k   p++ain+l+++++++eq+Gfanl+kgl+g+fRNp AH+p+  ++++++++l++ t +Sl+hrrlD a+ t
+      GD255_28_6 194 GKsgaPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVHRRLDVATVT 268
+                     999*******************************************************************99876 PP
+
+>> GD295A_12_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  335.3   0.0  3.6e-103    1e-101       5     266 ..       4     268 ..       1     271 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 335.3 bits;  conditional E-value: 3.6e-103
+  VP1853__VP1853   5 ksfsestleaiakilgdteegltgseitrllaelkiedpdeestKwkrLynalaekqnkdqngnnvlkfiekamkParyvrkperfeelrdelne 99 
+                     +s++ + l+ +a++l+dt+ gltg ei++ll +l+++dp+++ tKwkrL++a++++qn+d++ +++++fi++am+Pa+y+++pe f+ ++d+l+e
+     GD295A_12_6   4 PSWNLGVLTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQDQLDE 98 
+                     689999***************************************************************************************** PP
+
+  VP1853__VP1853 100 vLafeGleveedGkvakvekattlseaerraesLrekLeergvHpevlkyCreellkenyFhAvfEatKsvaeriReltgltkDGaeLvdkalsl 194
+                     vL f+Gl+ve++Gkv++  +++tl+ea+r+a+sLr++L++r++H evl+yC+ ellk+n FhA +EatKsv+er+R+++gl++DGa L+d+alsl
+     GD295A_12_6  99 VLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQMSGLSGDGAPLIDAALSL 193
+                     *********************************************************************************************** PP
+
+  VP1853__VP1853 195 kk...pllainslqtesekseqkGfanllkglfgafRNptAHepkieweiseqdaldiLtlvSlihrrlDkavkt 266
+                      k   p++ain+l+++++++eq+Gfanl+kgl+g+fRNp AH+p+  ++++++++l++ t +Sl+hrrlD a+ t
+     GD295A_12_6 194 GKsgaPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVHRRLDVATVT 268
+                     999*******************************************************************99876 PP
+
+>> GD297_19_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  335.3   0.0  3.6e-103    1e-101       5     266 ..       4     268 ..       1     271 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 335.3 bits;  conditional E-value: 3.6e-103
+  VP1853__VP1853   5 ksfsestleaiakilgdteegltgseitrllaelkiedpdeestKwkrLynalaekqnkdqngnnvlkfiekamkParyvrkperfeelrdelne 99 
+                     +s++ + l+ +a++l+dt+ gltg ei++ll +l+++dp+++ tKwkrL++a++++qn+d++ +++++fi++am+Pa+y+++pe f+ ++d+l+e
+      GD297_19_6   4 PSWNLGVLTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQDQLDE 98 
+                     689999***************************************************************************************** PP
+
+  VP1853__VP1853 100 vLafeGleveedGkvakvekattlseaerraesLrekLeergvHpevlkyCreellkenyFhAvfEatKsvaeriReltgltkDGaeLvdkalsl 194
+                     vL f+Gl+ve++Gkv++  +++tl+ea+r+a+sLr++L++r++H evl+yC+ ellk+n FhA +EatKsv+er+R+++gl++DGa L+d+alsl
+      GD297_19_6  99 VLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQMSGLSGDGAPLIDAALSL 193
+                     *********************************************************************************************** PP
+
+  VP1853__VP1853 195 kk...pllainslqtesekseqkGfanllkglfgafRNptAHepkieweiseqdaldiLtlvSlihrrlDkavkt 266
+                      k   p++ain+l+++++++eq+Gfanl+kgl+g+fRNp AH+p+  ++++++++l++ t +Sl+hrrlD a+ t
+      GD297_19_6 194 GKsgaPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVHRRLDVATVT 268
+                     999*******************************************************************99876 PP
+
+>> GD305B_28_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  335.3   0.0  3.6e-103    1e-101       5     266 ..       4     268 ..       1     271 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 335.3 bits;  conditional E-value: 3.6e-103
+  VP1853__VP1853   5 ksfsestleaiakilgdteegltgseitrllaelkiedpdeestKwkrLynalaekqnkdqngnnvlkfiekamkParyvrkperfeelrdelne 99 
+                     +s++ + l+ +a++l+dt+ gltg ei++ll +l+++dp+++ tKwkrL++a++++qn+d++ +++++fi++am+Pa+y+++pe f+ ++d+l+e
+     GD305B_28_6   4 PSWNLGVLTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQDQLDE 98 
+                     689999***************************************************************************************** PP
+
+  VP1853__VP1853 100 vLafeGleveedGkvakvekattlseaerraesLrekLeergvHpevlkyCreellkenyFhAvfEatKsvaeriReltgltkDGaeLvdkalsl 194
+                     vL f+Gl+ve++Gkv++  +++tl+ea+r+a+sLr++L++r++H evl+yC+ ellk+n FhA +EatKsv+er+R+++gl++DGa L+d+alsl
+     GD305B_28_6  99 VLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQMSGLSGDGAPLIDAALSL 193
+                     *********************************************************************************************** PP
+
+  VP1853__VP1853 195 kk...pllainslqtesekseqkGfanllkglfgafRNptAHepkieweiseqdaldiLtlvSlihrrlDkavkt 266
+                      k   p++ain+l+++++++eq+Gfanl+kgl+g+fRNp AH+p+  ++++++++l++ t +Sl+hrrlD a+ t
+     GD305B_28_6 194 GKsgaPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVHRRLDVATVT 268
+                     999*******************************************************************99876 PP
+
+>> GD340_32_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  335.3   0.0  3.6e-103    1e-101       5     266 ..       4     268 ..       1     271 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 335.3 bits;  conditional E-value: 3.6e-103
+  VP1853__VP1853   5 ksfsestleaiakilgdteegltgseitrllaelkiedpdeestKwkrLynalaekqnkdqngnnvlkfiekamkParyvrkperfeelrdelne 99 
+                     +s++ + l+ +a++l+dt+ gltg ei++ll +l+++dp+++ tKwkrL++a++++qn+d++ +++++fi++am+Pa+y+++pe f+ ++d+l+e
+      GD340_32_6   4 PSWNLGVLTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQDQLDE 98 
+                     689999***************************************************************************************** PP
+
+  VP1853__VP1853 100 vLafeGleveedGkvakvekattlseaerraesLrekLeergvHpevlkyCreellkenyFhAvfEatKsvaeriReltgltkDGaeLvdkalsl 194
+                     vL f+Gl+ve++Gkv++  +++tl+ea+r+a+sLr++L++r++H evl+yC+ ellk+n FhA +EatKsv+er+R+++gl++DGa L+d+alsl
+      GD340_32_6  99 VLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQMSGLSGDGAPLIDAALSL 193
+                     *********************************************************************************************** PP
+
+  VP1853__VP1853 195 kk...pllainslqtesekseqkGfanllkglfgafRNptAHepkieweiseqdaldiLtlvSlihrrlDkavkt 266
+                      k   p++ain+l+++++++eq+Gfanl+kgl+g+fRNp AH+p+  ++++++++l++ t +Sl+hrrlD a+ t
+      GD340_32_6 194 GKsgaPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVHRRLDVATVT 268
+                     999*******************************************************************99876 PP
+
+>> GD346_16_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  335.3   0.0  3.6e-103    1e-101       5     266 ..       4     268 ..       1     271 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 335.3 bits;  conditional E-value: 3.6e-103
+  VP1853__VP1853   5 ksfsestleaiakilgdteegltgseitrllaelkiedpdeestKwkrLynalaekqnkdqngnnvlkfiekamkParyvrkperfeelrdelne 99 
+                     +s++ + l+ +a++l+dt+ gltg ei++ll +l+++dp+++ tKwkrL++a++++qn+d++ +++++fi++am+Pa+y+++pe f+ ++d+l+e
+      GD346_16_6   4 PSWNLGVLTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQDQLDE 98 
+                     689999***************************************************************************************** PP
+
+  VP1853__VP1853 100 vLafeGleveedGkvakvekattlseaerraesLrekLeergvHpevlkyCreellkenyFhAvfEatKsvaeriReltgltkDGaeLvdkalsl 194
+                     vL f+Gl+ve++Gkv++  +++tl+ea+r+a+sLr++L++r++H evl+yC+ ellk+n FhA +EatKsv+er+R+++gl++DGa L+d+alsl
+      GD346_16_6  99 VLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQMSGLSGDGAPLIDAALSL 193
+                     *********************************************************************************************** PP
+
+  VP1853__VP1853 195 kk...pllainslqtesekseqkGfanllkglfgafRNptAHepkieweiseqdaldiLtlvSlihrrlDkavkt 266
+                      k   p++ain+l+++++++eq+Gfanl+kgl+g+fRNp AH+p+  ++++++++l++ t +Sl+hrrlD a+ t
+      GD346_16_6 194 GKsgaPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVHRRLDVATVT 268
+                     999*******************************************************************99876 PP
+
+>> GD347_1B_19_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  335.3   0.0  3.6e-103    1e-101       5     266 ..       4     268 ..       1     271 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 335.3 bits;  conditional E-value: 3.6e-103
+  VP1853__VP1853   5 ksfsestleaiakilgdteegltgseitrllaelkiedpdeestKwkrLynalaekqnkdqngnnvlkfiekamkParyvrkperfeelrdelne 99 
+                     +s++ + l+ +a++l+dt+ gltg ei++ll +l+++dp+++ tKwkrL++a++++qn+d++ +++++fi++am+Pa+y+++pe f+ ++d+l+e
+   GD347_1B_19_6   4 PSWNLGVLTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQDQLDE 98 
+                     689999***************************************************************************************** PP
+
+  VP1853__VP1853 100 vLafeGleveedGkvakvekattlseaerraesLrekLeergvHpevlkyCreellkenyFhAvfEatKsvaeriReltgltkDGaeLvdkalsl 194
+                     vL f+Gl+ve++Gkv++  +++tl+ea+r+a+sLr++L++r++H evl+yC+ ellk+n FhA +EatKsv+er+R+++gl++DGa L+d+alsl
+   GD347_1B_19_6  99 VLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQMSGLSGDGAPLIDAALSL 193
+                     *********************************************************************************************** PP
+
+  VP1853__VP1853 195 kk...pllainslqtesekseqkGfanllkglfgafRNptAHepkieweiseqdaldiLtlvSlihrrlDkavkt 266
+                      k   p++ain+l+++++++eq+Gfanl+kgl+g+fRNp AH+p+  ++++++++l++ t +Sl+hrrlD a+ t
+   GD347_1B_19_6 194 GKsgaPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVHRRLDVATVT 268
+                     999*******************************************************************99876 PP
+
+>> GD365_18_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  335.3   0.0  3.6e-103    1e-101       5     266 ..       4     268 ..       1     271 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 335.3 bits;  conditional E-value: 3.6e-103
+  VP1853__VP1853   5 ksfsestleaiakilgdteegltgseitrllaelkiedpdeestKwkrLynalaekqnkdqngnnvlkfiekamkParyvrkperfeelrdelne 99 
+                     +s++ + l+ +a++l+dt+ gltg ei++ll +l+++dp+++ tKwkrL++a++++qn+d++ +++++fi++am+Pa+y+++pe f+ ++d+l+e
+      GD365_18_6   4 PSWNLGVLTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQDQLDE 98 
+                     689999***************************************************************************************** PP
+
+  VP1853__VP1853 100 vLafeGleveedGkvakvekattlseaerraesLrekLeergvHpevlkyCreellkenyFhAvfEatKsvaeriReltgltkDGaeLvdkalsl 194
+                     vL f+Gl+ve++Gkv++  +++tl+ea+r+a+sLr++L++r++H evl+yC+ ellk+n FhA +EatKsv+er+R+++gl++DGa L+d+alsl
+      GD365_18_6  99 VLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQMSGLSGDGAPLIDAALSL 193
+                     *********************************************************************************************** PP
+
+  VP1853__VP1853 195 kk...pllainslqtesekseqkGfanllkglfgafRNptAHepkieweiseqdaldiLtlvSlihrrlDkavkt 266
+                      k   p++ain+l+++++++eq+Gfanl+kgl+g+fRNp AH+p+  ++++++++l++ t +Sl+hrrlD a+ t
+      GD365_18_6 194 GKsgaPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVHRRLDVATVT 268
+                     999*******************************************************************99876 PP
+
+>> GD36_37_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.61
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  335.3   0.0  3.6e-103    1e-101       5     266 ..       4     268 ..       1     271 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 335.3 bits;  conditional E-value: 3.6e-103
+  VP1853__VP1853   5 ksfsestleaiakilgdteegltgseitrllaelkiedpdeestKwkrLynalaekqnkdqngnnvlkfiekamkParyvrkperfeelrdelne 99 
+                     +s++ + l+ +a++l+dt+ gltg ei++ll +l+++dp+++ tKwkrL++a++++qn+d++ +++++fi++am+Pa+y+++pe f+ ++d+l+e
+       GD36_37_6   4 PSWNLGVLTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQDQLDE 98 
+                     689999***************************************************************************************** PP
+
+  VP1853__VP1853 100 vLafeGleveedGkvakvekattlseaerraesLrekLeergvHpevlkyCreellkenyFhAvfEatKsvaeriReltgltkDGaeLvdkalsl 194
+                     vL f+Gl+ve++Gkv++  +++tl+ea+r+a+sLr++L++r++H evl+yC+ ellk+n FhA +EatKsv+er+R+++gl++DGa L+d+alsl
+       GD36_37_6  99 VLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQMSGLSGDGAPLIDAALSL 193
+                     *********************************************************************************************** PP
+
+  VP1853__VP1853 195 kk...pllainslqtesekseqkGfanllkglfgafRNptAHepkieweiseqdaldiLtlvSlihrrlDkavkt 266
+                      k   p++ain+l+++++++eq+Gfanl+kgl+g+fRNp AH+p+  ++++++++l++ t +Sl+hrrlD a+ t
+       GD36_37_6 194 GKsgaPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVHRRLDVATVT 268
+                     999*******************************************************************99876 PP
+
+>> GD42__GD42_Plasmid1_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  335.3   0.0  3.6e-103    1e-101       5     266 ..       4     268 ..       1     271 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 335.3 bits;  conditional E-value: 3.6e-103
+         VP1853__VP1853   5 ksfsestleaiakilgdteegltgseitrllaelkiedpdeestKwkrLynalaekqnkdqngnnvlkfiekamkParyvrkperfee 92 
+                            +s++ + l+ +a++l+dt+ gltg ei++ll +l+++dp+++ tKwkrL++a++++qn+d++ +++++fi++am+Pa+y+++pe f+ 
+  GD42__GD42_Plasmid1_6   4 PSWNLGVLTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTL 91 
+                            689999********************************************************************************** PP
+
+         VP1853__VP1853  93 lrdelnevLafeGleveedGkvakvekattlseaerraesLrekLeergvHpevlkyCreellkenyFhAvfEatKsvaeriReltgl 180
+                            ++d+l+evL f+Gl+ve++Gkv++  +++tl+ea+r+a+sLr++L++r++H evl+yC+ ellk+n FhA +EatKsv+er+R+++gl
+  GD42__GD42_Plasmid1_6  92 RQDQLDEVLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQMSGL 179
+                            **************************************************************************************** PP
+
+         VP1853__VP1853 181 tkDGaeLvdkalslkk...pllainslqtesekseqkGfanllkglfgafRNptAHepkieweiseqdaldiLtlvSlihrrlDkavk 265
+                            ++DGa L+d+alsl k   p++ain+l+++++++eq+Gfanl+kgl+g+fRNp AH+p+  ++++++++l++ t +Sl+hrrlD a+ 
+  GD42__GD42_Plasmid1_6 180 SGDGAPLIDAALSLGKsgaPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVHRRLDVATV 267
+                            **************999*******************************************************************9987 PP
+
+         VP1853__VP1853 266 t 266
+                            t
+  GD42__GD42_Plasmid1_6 268 T 268
+                            6 PP
+
+>> GD47A_16_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  335.3   0.0  3.6e-103    1e-101       5     266 ..       4     268 ..       1     271 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 335.3 bits;  conditional E-value: 3.6e-103
+  VP1853__VP1853   5 ksfsestleaiakilgdteegltgseitrllaelkiedpdeestKwkrLynalaekqnkdqngnnvlkfiekamkParyvrkperfeelrdelne 99 
+                     +s++ + l+ +a++l+dt+ gltg ei++ll +l+++dp+++ tKwkrL++a++++qn+d++ +++++fi++am+Pa+y+++pe f+ ++d+l+e
+      GD47A_16_6   4 PSWNLGVLTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQDQLDE 98 
+                     689999***************************************************************************************** PP
+
+  VP1853__VP1853 100 vLafeGleveedGkvakvekattlseaerraesLrekLeergvHpevlkyCreellkenyFhAvfEatKsvaeriReltgltkDGaeLvdkalsl 194
+                     vL f+Gl+ve++Gkv++  +++tl+ea+r+a+sLr++L++r++H evl+yC+ ellk+n FhA +EatKsv+er+R+++gl++DGa L+d+alsl
+      GD47A_16_6  99 VLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQMSGLSGDGAPLIDAALSL 193
+                     *********************************************************************************************** PP
+
+  VP1853__VP1853 195 kk...pllainslqtesekseqkGfanllkglfgafRNptAHepkieweiseqdaldiLtlvSlihrrlDkavkt 266
+                      k   p++ain+l+++++++eq+Gfanl+kgl+g+fRNp AH+p+  ++++++++l++ t +Sl+hrrlD a+ t
+      GD47A_16_6 194 GKsgaPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVHRRLDVATVT 268
+                     999*******************************************************************99876 PP
+
+>> GD521_38_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  335.3   0.0  3.6e-103    1e-101       5     266 ..       4     268 ..       1     271 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 335.3 bits;  conditional E-value: 3.6e-103
+  VP1853__VP1853   5 ksfsestleaiakilgdteegltgseitrllaelkiedpdeestKwkrLynalaekqnkdqngnnvlkfiekamkParyvrkperfeelrdelne 99 
+                     +s++ + l+ +a++l+dt+ gltg ei++ll +l+++dp+++ tKwkrL++a++++qn+d++ +++++fi++am+Pa+y+++pe f+ ++d+l+e
+      GD521_38_6   4 PSWNLGVLTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQDQLDE 98 
+                     689999***************************************************************************************** PP
+
+  VP1853__VP1853 100 vLafeGleveedGkvakvekattlseaerraesLrekLeergvHpevlkyCreellkenyFhAvfEatKsvaeriReltgltkDGaeLvdkalsl 194
+                     vL f+Gl+ve++Gkv++  +++tl+ea+r+a+sLr++L++r++H evl+yC+ ellk+n FhA +EatKsv+er+R+++gl++DGa L+d+alsl
+      GD521_38_6  99 VLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQMSGLSGDGAPLIDAALSL 193
+                     *********************************************************************************************** PP
+
+  VP1853__VP1853 195 kk...pllainslqtesekseqkGfanllkglfgafRNptAHepkieweiseqdaldiLtlvSlihrrlDkavkt 266
+                      k   p++ain+l+++++++eq+Gfanl+kgl+g+fRNp AH+p+  ++++++++l++ t +Sl+hrrlD a+ t
+      GD521_38_6 194 GKsgaPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVHRRLDVATVT 268
+                     999*******************************************************************99876 PP
+
+>> GD62_27_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.61
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  335.3   0.0  3.6e-103    1e-101       5     266 ..       4     268 ..       1     271 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 335.3 bits;  conditional E-value: 3.6e-103
+  VP1853__VP1853   5 ksfsestleaiakilgdteegltgseitrllaelkiedpdeestKwkrLynalaekqnkdqngnnvlkfiekamkParyvrkperfeelrdelne 99 
+                     +s++ + l+ +a++l+dt+ gltg ei++ll +l+++dp+++ tKwkrL++a++++qn+d++ +++++fi++am+Pa+y+++pe f+ ++d+l+e
+       GD62_27_6   4 PSWNLGVLTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQDQLDE 98 
+                     689999***************************************************************************************** PP
+
+  VP1853__VP1853 100 vLafeGleveedGkvakvekattlseaerraesLrekLeergvHpevlkyCreellkenyFhAvfEatKsvaeriReltgltkDGaeLvdkalsl 194
+                     vL f+Gl+ve++Gkv++  +++tl+ea+r+a+sLr++L++r++H evl+yC+ ellk+n FhA +EatKsv+er+R+++gl++DGa L+d+alsl
+       GD62_27_6  99 VLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQMSGLSGDGAPLIDAALSL 193
+                     *********************************************************************************************** PP
+
+  VP1853__VP1853 195 kk...pllainslqtesekseqkGfanllkglfgafRNptAHepkieweiseqdaldiLtlvSlihrrlDkavkt 266
+                      k   p++ain+l+++++++eq+Gfanl+kgl+g+fRNp AH+p+  ++++++++l++ t +Sl+hrrlD a+ t
+       GD62_27_6 194 GKsgaPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVHRRLDVATVT 268
+                     999*******************************************************************99876 PP
+
+>> GD72_30_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.61
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  335.3   0.0  3.6e-103    1e-101       5     266 ..       4     268 ..       1     271 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 335.3 bits;  conditional E-value: 3.6e-103
+  VP1853__VP1853   5 ksfsestleaiakilgdteegltgseitrllaelkiedpdeestKwkrLynalaekqnkdqngnnvlkfiekamkParyvrkperfeelrdelne 99 
+                     +s++ + l+ +a++l+dt+ gltg ei++ll +l+++dp+++ tKwkrL++a++++qn+d++ +++++fi++am+Pa+y+++pe f+ ++d+l+e
+       GD72_30_6   4 PSWNLGVLTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQDQLDE 98 
+                     689999***************************************************************************************** PP
+
+  VP1853__VP1853 100 vLafeGleveedGkvakvekattlseaerraesLrekLeergvHpevlkyCreellkenyFhAvfEatKsvaeriReltgltkDGaeLvdkalsl 194
+                     vL f+Gl+ve++Gkv++  +++tl+ea+r+a+sLr++L++r++H evl+yC+ ellk+n FhA +EatKsv+er+R+++gl++DGa L+d+alsl
+       GD72_30_6  99 VLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQMSGLSGDGAPLIDAALSL 193
+                     *********************************************************************************************** PP
+
+  VP1853__VP1853 195 kk...pllainslqtesekseqkGfanllkglfgafRNptAHepkieweiseqdaldiLtlvSlihrrlDkavkt 266
+                      k   p++ain+l+++++++eq+Gfanl+kgl+g+fRNp AH+p+  ++++++++l++ t +Sl+hrrlD a+ t
+       GD72_30_6 194 GKsgaPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVHRRLDVATVT 268
+                     999*******************************************************************99876 PP
+
+>> GD85_35_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.61
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  335.3   0.0  3.6e-103    1e-101       5     266 ..       4     268 ..       1     271 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 335.3 bits;  conditional E-value: 3.6e-103
+  VP1853__VP1853   5 ksfsestleaiakilgdteegltgseitrllaelkiedpdeestKwkrLynalaekqnkdqngnnvlkfiekamkParyvrkperfeelrdelne 99 
+                     +s++ + l+ +a++l+dt+ gltg ei++ll +l+++dp+++ tKwkrL++a++++qn+d++ +++++fi++am+Pa+y+++pe f+ ++d+l+e
+       GD85_35_6   4 PSWNLGVLTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQDQLDE 98 
+                     689999***************************************************************************************** PP
+
+  VP1853__VP1853 100 vLafeGleveedGkvakvekattlseaerraesLrekLeergvHpevlkyCreellkenyFhAvfEatKsvaeriReltgltkDGaeLvdkalsl 194
+                     vL f+Gl+ve++Gkv++  +++tl+ea+r+a+sLr++L++r++H evl+yC+ ellk+n FhA +EatKsv+er+R+++gl++DGa L+d+alsl
+       GD85_35_6  99 VLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQMSGLSGDGAPLIDAALSL 193
+                     *********************************************************************************************** PP
+
+  VP1853__VP1853 195 kk...pllainslqtesekseqkGfanllkglfgafRNptAHepkieweiseqdaldiLtlvSlihrrlDkavkt 266
+                      k   p++ain+l+++++++eq+Gfanl+kgl+g+fRNp AH+p+  ++++++++l++ t +Sl+hrrlD a+ t
+       GD85_35_6 194 GKsgaPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVHRRLDVATVT 268
+                     999*******************************************************************99876 PP
+
+>> GD87_44_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.61
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  335.3   0.0  3.6e-103    1e-101       5     266 ..       4     268 ..       1     271 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 335.3 bits;  conditional E-value: 3.6e-103
+  VP1853__VP1853   5 ksfsestleaiakilgdteegltgseitrllaelkiedpdeestKwkrLynalaekqnkdqngnnvlkfiekamkParyvrkperfeelrdelne 99 
+                     +s++ + l+ +a++l+dt+ gltg ei++ll +l+++dp+++ tKwkrL++a++++qn+d++ +++++fi++am+Pa+y+++pe f+ ++d+l+e
+       GD87_44_6   4 PSWNLGVLTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQDQLDE 98 
+                     689999***************************************************************************************** PP
+
+  VP1853__VP1853 100 vLafeGleveedGkvakvekattlseaerraesLrekLeergvHpevlkyCreellkenyFhAvfEatKsvaeriReltgltkDGaeLvdkalsl 194
+                     vL f+Gl+ve++Gkv++  +++tl+ea+r+a+sLr++L++r++H evl+yC+ ellk+n FhA +EatKsv+er+R+++gl++DGa L+d+alsl
+       GD87_44_6  99 VLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQMSGLSGDGAPLIDAALSL 193
+                     *********************************************************************************************** PP
+
+  VP1853__VP1853 195 kk...pllainslqtesekseqkGfanllkglfgafRNptAHepkieweiseqdaldiLtlvSlihrrlDkavkt 266
+                      k   p++ain+l+++++++eq+Gfanl+kgl+g+fRNp AH+p+  ++++++++l++ t +Sl+hrrlD a+ t
+       GD87_44_6 194 GKsgaPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVHRRLDVATVT 268
+                     999*******************************************************************99876 PP
+
+>> GD95_33_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.61
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  335.3   0.0  3.6e-103    1e-101       5     266 ..       4     268 ..       1     271 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 335.3 bits;  conditional E-value: 3.6e-103
+  VP1853__VP1853   5 ksfsestleaiakilgdteegltgseitrllaelkiedpdeestKwkrLynalaekqnkdqngnnvlkfiekamkParyvrkperfeelrdelne 99 
+                     +s++ + l+ +a++l+dt+ gltg ei++ll +l+++dp+++ tKwkrL++a++++qn+d++ +++++fi++am+Pa+y+++pe f+ ++d+l+e
+       GD95_33_6   4 PSWNLGVLTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQDQLDE 98 
+                     689999***************************************************************************************** PP
+
+  VP1853__VP1853 100 vLafeGleveedGkvakvekattlseaerraesLrekLeergvHpevlkyCreellkenyFhAvfEatKsvaeriReltgltkDGaeLvdkalsl 194
+                     vL f+Gl+ve++Gkv++  +++tl+ea+r+a+sLr++L++r++H evl+yC+ ellk+n FhA +EatKsv+er+R+++gl++DGa L+d+alsl
+       GD95_33_6  99 VLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQMSGLSGDGAPLIDAALSL 193
+                     *********************************************************************************************** PP
+
+  VP1853__VP1853 195 kk...pllainslqtesekseqkGfanllkglfgafRNptAHepkieweiseqdaldiLtlvSlihrrlDkavkt 266
+                      k   p++ain+l+++++++eq+Gfanl+kgl+g+fRNp AH+p+  ++++++++l++ t +Sl+hrrlD a+ t
+       GD95_33_6 194 GKsgaPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVHRRLDVATVT 268
+                     999*******************************************************************99876 PP
+
+>> pGD69A-1_6  # 7165 # 7986 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  335.3   0.0  3.6e-103    1e-101       5     266 ..       4     268 ..       1     271 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 335.3 bits;  conditional E-value: 3.6e-103
+  VP1853__VP1853   5 ksfsestleaiakilgdteegltgseitrllaelkiedpdeestKwkrLynalaekqnkdqngnnvlkfiekamkParyvrkperfeelrdelne 99 
+                     +s++ + l+ +a++l+dt+ gltg ei++ll +l+++dp+++ tKwkrL++a++++qn+d++ +++++fi++am+Pa+y+++pe f+ ++d+l+e
+      pGD69A-1_6   4 PSWNLGVLTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQDQLDE 98 
+                     689999***************************************************************************************** PP
+
+  VP1853__VP1853 100 vLafeGleveedGkvakvekattlseaerraesLrekLeergvHpevlkyCreellkenyFhAvfEatKsvaeriReltgltkDGaeLvdkalsl 194
+                     vL f+Gl+ve++Gkv++  +++tl+ea+r+a+sLr++L++r++H evl+yC+ ellk+n FhA +EatKsv+er+R+++gl++DGa L+d+alsl
+      pGD69A-1_6  99 VLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQMSGLSGDGAPLIDAALSL 193
+                     *********************************************************************************************** PP
+
+  VP1853__VP1853 195 kk...pllainslqtesekseqkGfanllkglfgafRNptAHepkieweiseqdaldiLtlvSlihrrlDkavkt 266
+                      k   p++ain+l+++++++eq+Gfanl+kgl+g+fRNp AH+p+  ++++++++l++ t +Sl+hrrlD a+ t
+      pGD69A-1_6 194 GKsgaPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVHRRLDVATVT 268
+                     999*******************************************************************99876 PP
+
+>> pGD69B-1_6  # 7165 # 7986 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  335.3   0.0  3.6e-103    1e-101       5     266 ..       4     268 ..       1     271 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 335.3 bits;  conditional E-value: 3.6e-103
+  VP1853__VP1853   5 ksfsestleaiakilgdteegltgseitrllaelkiedpdeestKwkrLynalaekqnkdqngnnvlkfiekamkParyvrkperfeelrdelne 99 
+                     +s++ + l+ +a++l+dt+ gltg ei++ll +l+++dp+++ tKwkrL++a++++qn+d++ +++++fi++am+Pa+y+++pe f+ ++d+l+e
+      pGD69B-1_6   4 PSWNLGVLTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQDQLDE 98 
+                     689999***************************************************************************************** PP
+
+  VP1853__VP1853 100 vLafeGleveedGkvakvekattlseaerraesLrekLeergvHpevlkyCreellkenyFhAvfEatKsvaeriReltgltkDGaeLvdkalsl 194
+                     vL f+Gl+ve++Gkv++  +++tl+ea+r+a+sLr++L++r++H evl+yC+ ellk+n FhA +EatKsv+er+R+++gl++DGa L+d+alsl
+      pGD69B-1_6  99 VLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQMSGLSGDGAPLIDAALSL 193
+                     *********************************************************************************************** PP
+
+  VP1853__VP1853 195 kk...pllainslqtesekseqkGfanllkglfgafRNptAHepkieweiseqdaldiLtlvSlihrrlDkavkt 266
+                      k   p++ain+l+++++++eq+Gfanl+kgl+g+fRNp AH+p+  ++++++++l++ t +Sl+hrrlD a+ t
+      pGD69B-1_6 194 GKsgaPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVHRRLDVATVT 268
+                     999*******************************************************************99876 PP
+
+>> GD281A_31_6  # 6853 # 7242 # -1 # ID=1_6;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.597
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  167.6   0.0   4.9e-52   1.4e-50     147     266 ..       2     124 ..       1     127 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 167.6 bits;  conditional E-value: 4.9e-52
+  VP1853__VP1853 147 lkyCreellkenyFhAvfEatKsvaeriReltgltkDGaeLvdkalslkk...pllainslqtesekseqkGfanllkglfgafRNptAHepkie 238
+                     l+yC+ ellk+n FhA +EatKsv+er+R+++gl++DGa L+d+alsl k   p++ain+l+++++++eq+Gfanl+kgl+g+fRNp AH+p+  
+     GD281A_31_6   2 LRYCTVELLKKNNFHASLEATKSVFERVRQMSGLSGDGAPLIDAALSLGKsgaPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRAL 96 
+                     89**********************************************999******************************************** PP
+
+  VP1853__VP1853 239 weiseqdaldiLtlvSlihrrlDkavkt 266
+                     ++++++++l++ t +Sl+hrrlD a+ t
+     GD281A_31_6  97 RAVTDTQLLELATALSLVHRRLDVATVT 124
+                     ***********************99876 PP
+
+>> GD281B_32_6  # 6853 # 7242 # -1 # ID=1_6;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.597
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  167.6   0.0   4.9e-52   1.4e-50     147     266 ..       2     124 ..       1     127 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 167.6 bits;  conditional E-value: 4.9e-52
+  VP1853__VP1853 147 lkyCreellkenyFhAvfEatKsvaeriReltgltkDGaeLvdkalslkk...pllainslqtesekseqkGfanllkglfgafRNptAHepkie 238
+                     l+yC+ ellk+n FhA +EatKsv+er+R+++gl++DGa L+d+alsl k   p++ain+l+++++++eq+Gfanl+kgl+g+fRNp AH+p+  
+     GD281B_32_6   2 LRYCTVELLKKNNFHASLEATKSVFERVRQMSGLSGDGAPLIDAALSLGKsgaPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRAL 96 
+                     89**********************************************999******************************************** PP
+
+  VP1853__VP1853 239 weiseqdaldiLtlvSlihrrlDkavkt 266
+                     ++++++++l++ t +Sl+hrrlD a+ t
+     GD281B_32_6  97 RAVTDTQLLELATALSLVHRRLDVATVT 124
+                     ***********************99876 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (269 nodes)
+Target sequences:                       1019  (236273 residues searched)
+Passed MSV filter:                       105  (0.103042); expected 20.4 (0.02)
+Passed bias filter:                      105  (0.103042); expected 20.4 (0.02)
+Passed Vit filter:                        35  (0.0343474); expected 1.0 (0.001)
+Passed Fwd filter:                        35  (0.0343474); expected 0.0 (1e-05)
+Initial search space (Z):               1019  [actual number of targets]
+Domain search space  (domZ):              35  [number of targets reported over threshold]
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
+# Mc/sec: 2808.31
+//
+[ok]

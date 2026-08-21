@@ -1,0 +1,996 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /Users/CAM920/.macsyfinder/models/defense-finder-models/profiles/PD-Lambda-3__PD-Lambda-3_B.hmm
+# target sequence database:        /Users/CAM920/Desktop/mab-plasmid-typing/pB_type_nucleotide.prt_defensefinder.prt
+# output directed to file:         /Users/CAM920/Desktop/mab-plasmid-typing/defense-finder-tmp/DefenseFinder/hmmer_results/PD-Lambda-3__PD-Lambda-3_B.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       PD-Lambda-3__PD-Lambda-3_B  [M=270]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+    2.4e-71  236.0   0.0      3e-71  235.6   0.0    1.0  1  GD105_22_6             # 6853 # 7674 # -1 # ID=1_6;partial=00
+    2.4e-71  236.0   0.0      3e-71  235.6   0.0    1.0  1  GD106_29_6             # 6853 # 7674 # -1 # ID=1_6;partial=00
+    2.4e-71  236.0   0.0      3e-71  235.6   0.0    1.0  1  GD108A_23_6            # 6853 # 7674 # -1 # ID=1_6;partial=00
+    2.4e-71  236.0   0.0      3e-71  235.6   0.0    1.0  1  GD108B_21_6            # 6853 # 7674 # -1 # ID=1_6;partial=00
+    2.4e-71  236.0   0.0      3e-71  235.6   0.0    1.0  1  GD177_20_6             # 6853 # 7674 # -1 # ID=1_6;partial=00
+    2.4e-71  236.0   0.0      3e-71  235.6   0.0    1.0  1  GD187_12_6             # 6853 # 7674 # -1 # ID=1_6;partial=00
+    2.4e-71  236.0   0.0      3e-71  235.6   0.0    1.0  1  GD18_29_6              # 6853 # 7674 # -1 # ID=1_6;partial=00
+    2.4e-71  236.0   0.0      3e-71  235.6   0.0    1.0  1  GD205_39_6             # 6853 # 7674 # -1 # ID=1_6;partial=00
+    2.4e-71  236.0   0.0      3e-71  235.6   0.0    1.0  1  GD210_9_6              # 6853 # 7674 # -1 # ID=1_6;partial=00
+    2.4e-71  236.0   0.0      3e-71  235.6   0.0    1.0  1  GD212_8_6              # 6853 # 7674 # -1 # ID=1_6;partial=00
+    2.4e-71  236.0   0.0      3e-71  235.6   0.0    1.0  1  GD231_12_6             # 6853 # 7674 # -1 # ID=1_6;partial=00
+    2.4e-71  236.0   0.0      3e-71  235.6   0.0    1.0  1  GD233A_15_6            # 6853 # 7674 # -1 # ID=1_6;partial=00
+    2.4e-71  236.0   0.0      3e-71  235.6   0.0    1.0  1  GD233B_16_6            # 6853 # 7674 # -1 # ID=1_6;partial=00
+    2.4e-71  236.0   0.0      3e-71  235.6   0.0    1.0  1  GD23_8_25              # 18093 # 18914 # 1 # ID=1_25;partial=
+    2.4e-71  236.0   0.0      3e-71  235.6   0.0    1.0  1  GD255_28_6             # 6853 # 7674 # -1 # ID=1_6;partial=00
+    2.4e-71  236.0   0.0      3e-71  235.6   0.0    1.0  1  GD295A_12_6            # 6853 # 7674 # -1 # ID=1_6;partial=00
+    2.4e-71  236.0   0.0      3e-71  235.6   0.0    1.0  1  GD297_19_6             # 6853 # 7674 # -1 # ID=1_6;partial=00
+    2.4e-71  236.0   0.0      3e-71  235.6   0.0    1.0  1  GD305B_28_6            # 6853 # 7674 # -1 # ID=1_6;partial=00
+    2.4e-71  236.0   0.0      3e-71  235.6   0.0    1.0  1  GD340_32_6             # 6853 # 7674 # -1 # ID=1_6;partial=00
+    2.4e-71  236.0   0.0      3e-71  235.6   0.0    1.0  1  GD346_16_6             # 6853 # 7674 # -1 # ID=1_6;partial=00
+    2.4e-71  236.0   0.0      3e-71  235.6   0.0    1.0  1  GD347_1B_19_6          # 6853 # 7674 # -1 # ID=1_6;partial=00
+    2.4e-71  236.0   0.0      3e-71  235.6   0.0    1.0  1  GD365_18_6             # 6853 # 7674 # -1 # ID=1_6;partial=00
+    2.4e-71  236.0   0.0      3e-71  235.6   0.0    1.0  1  GD36_37_6              # 6853 # 7674 # -1 # ID=1_6;partial=00
+    2.4e-71  236.0   0.0      3e-71  235.6   0.0    1.0  1  GD42__GD42_Plasmid1_6  # 6853 # 7674 # -1 # ID=1_6;partial=00
+    2.4e-71  236.0   0.0      3e-71  235.6   0.0    1.0  1  GD47A_16_6             # 6853 # 7674 # -1 # ID=1_6;partial=00
+    2.4e-71  236.0   0.0      3e-71  235.6   0.0    1.0  1  GD521_38_6             # 6853 # 7674 # -1 # ID=1_6;partial=00
+    2.4e-71  236.0   0.0      3e-71  235.6   0.0    1.0  1  GD62_27_6              # 6853 # 7674 # -1 # ID=1_6;partial=00
+    2.4e-71  236.0   0.0      3e-71  235.6   0.0    1.0  1  GD72_30_6              # 6853 # 7674 # -1 # ID=1_6;partial=00
+    2.4e-71  236.0   0.0      3e-71  235.6   0.0    1.0  1  GD85_35_6              # 6853 # 7674 # -1 # ID=1_6;partial=00
+    2.4e-71  236.0   0.0      3e-71  235.6   0.0    1.0  1  GD87_44_6              # 6853 # 7674 # -1 # ID=1_6;partial=00
+    2.4e-71  236.0   0.0      3e-71  235.6   0.0    1.0  1  GD95_33_6              # 6853 # 7674 # -1 # ID=1_6;partial=00
+    2.4e-71  236.0   0.0      3e-71  235.6   0.0    1.0  1  pGD69A-1_6             # 7165 # 7986 # -1 # ID=1_6;partial=00
+    2.4e-71  236.0   0.0      3e-71  235.6   0.0    1.0  1  pGD69B-1_6             # 7165 # 7986 # -1 # ID=1_6;partial=00
+    3.2e-35  117.5   0.0    3.8e-35  117.3   0.0    1.0  1  GD281A_31_6            # 6853 # 7242 # -1 # ID=1_6;partial=00
+    3.2e-35  117.5   0.0    3.8e-35  117.3   0.0    1.0  1  GD281B_32_6            # 6853 # 7242 # -1 # ID=1_6;partial=00
+
+
+Domain annotation for each sequence (and alignments):
+>> GD105_22_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.6   0.0     1e-72     3e-71      12     264 ..      11     266 ..       2     271 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 235.6 bits;  conditional E-value: 1e-72
+  PD-Lambda-3__PD-Lambda-3_B  12 leaacrvladterglsgtqierllqeievadtspgmtkwkrlfnalagaqnqyqvgnhlilfinramnpvnyardaavfawrr 94 
+                                 l    +vladt  gl+g +i +ll  +++ d+  g+tkwkrl +a++  qn     + +i fi  amnp ny   ++ f+ r+
+                  GD105_22_6  11 LTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQ 93 
+                                 667889***************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B  95 delnvvlafsgfyvredgkvakadkattldaararagrlkaalesravhaevlnycraelldenyfhavfeatkgvaerirql 177
+                                 d+l+ vl+f g+ v + gkv +  +++tld a   a  l+a l  r  h evl+yc +ell++n fha +eatk v er+rq+
+                  GD105_22_6  94 DQLDEVLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQM 176
+                                 *********************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B 178 sglsgdgadlvnkafa.gq..qpvlalgplttesekseqkgfanlliglfgavrnplahapktnwpmseqdaldiltlvslih 257
+                                 sglsgdga l++ a++ g+   pv+a+ +l++++++ eq gfanl+ gl g  rnp+ah p+    +++ + l++ t +sl+h
+                  GD105_22_6 177 SGLSGDGAPLIDAALSlGKsgAPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVH 259
+                                 **************974442269************************************************************ PP
+
+  PD-Lambda-3__PD-Lambda-3_B 258 rkldgaq 264
+                                 r+ld+a+
+                  GD105_22_6 260 RRLDVAT 266
+                                 ****987 PP
+
+>> GD106_29_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.6   0.0     1e-72     3e-71      12     264 ..      11     266 ..       2     271 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 235.6 bits;  conditional E-value: 1e-72
+  PD-Lambda-3__PD-Lambda-3_B  12 leaacrvladterglsgtqierllqeievadtspgmtkwkrlfnalagaqnqyqvgnhlilfinramnpvnyardaavfawrr 94 
+                                 l    +vladt  gl+g +i +ll  +++ d+  g+tkwkrl +a++  qn     + +i fi  amnp ny   ++ f+ r+
+                  GD106_29_6  11 LTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQ 93 
+                                 667889***************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B  95 delnvvlafsgfyvredgkvakadkattldaararagrlkaalesravhaevlnycraelldenyfhavfeatkgvaerirql 177
+                                 d+l+ vl+f g+ v + gkv +  +++tld a   a  l+a l  r  h evl+yc +ell++n fha +eatk v er+rq+
+                  GD106_29_6  94 DQLDEVLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQM 176
+                                 *********************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B 178 sglsgdgadlvnkafa.gq..qpvlalgplttesekseqkgfanlliglfgavrnplahapktnwpmseqdaldiltlvslih 257
+                                 sglsgdga l++ a++ g+   pv+a+ +l++++++ eq gfanl+ gl g  rnp+ah p+    +++ + l++ t +sl+h
+                  GD106_29_6 177 SGLSGDGAPLIDAALSlGKsgAPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVH 259
+                                 **************974442269************************************************************ PP
+
+  PD-Lambda-3__PD-Lambda-3_B 258 rkldgaq 264
+                                 r+ld+a+
+                  GD106_29_6 260 RRLDVAT 266
+                                 ****987 PP
+
+>> GD108A_23_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.6   0.0     1e-72     3e-71      12     264 ..      11     266 ..       2     271 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 235.6 bits;  conditional E-value: 1e-72
+  PD-Lambda-3__PD-Lambda-3_B  12 leaacrvladterglsgtqierllqeievadtspgmtkwkrlfnalagaqnqyqvgnhlilfinramnpvnyardaavfawrr 94 
+                                 l    +vladt  gl+g +i +ll  +++ d+  g+tkwkrl +a++  qn     + +i fi  amnp ny   ++ f+ r+
+                 GD108A_23_6  11 LTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQ 93 
+                                 667889***************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B  95 delnvvlafsgfyvredgkvakadkattldaararagrlkaalesravhaevlnycraelldenyfhavfeatkgvaerirql 177
+                                 d+l+ vl+f g+ v + gkv +  +++tld a   a  l+a l  r  h evl+yc +ell++n fha +eatk v er+rq+
+                 GD108A_23_6  94 DQLDEVLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQM 176
+                                 *********************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B 178 sglsgdgadlvnkafa.gq..qpvlalgplttesekseqkgfanlliglfgavrnplahapktnwpmseqdaldiltlvslih 257
+                                 sglsgdga l++ a++ g+   pv+a+ +l++++++ eq gfanl+ gl g  rnp+ah p+    +++ + l++ t +sl+h
+                 GD108A_23_6 177 SGLSGDGAPLIDAALSlGKsgAPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVH 259
+                                 **************974442269************************************************************ PP
+
+  PD-Lambda-3__PD-Lambda-3_B 258 rkldgaq 264
+                                 r+ld+a+
+                 GD108A_23_6 260 RRLDVAT 266
+                                 ****987 PP
+
+>> GD108B_21_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.6   0.0     1e-72     3e-71      12     264 ..      11     266 ..       2     271 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 235.6 bits;  conditional E-value: 1e-72
+  PD-Lambda-3__PD-Lambda-3_B  12 leaacrvladterglsgtqierllqeievadtspgmtkwkrlfnalagaqnqyqvgnhlilfinramnpvnyardaavfawrr 94 
+                                 l    +vladt  gl+g +i +ll  +++ d+  g+tkwkrl +a++  qn     + +i fi  amnp ny   ++ f+ r+
+                 GD108B_21_6  11 LTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQ 93 
+                                 667889***************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B  95 delnvvlafsgfyvredgkvakadkattldaararagrlkaalesravhaevlnycraelldenyfhavfeatkgvaerirql 177
+                                 d+l+ vl+f g+ v + gkv +  +++tld a   a  l+a l  r  h evl+yc +ell++n fha +eatk v er+rq+
+                 GD108B_21_6  94 DQLDEVLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQM 176
+                                 *********************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B 178 sglsgdgadlvnkafa.gq..qpvlalgplttesekseqkgfanlliglfgavrnplahapktnwpmseqdaldiltlvslih 257
+                                 sglsgdga l++ a++ g+   pv+a+ +l++++++ eq gfanl+ gl g  rnp+ah p+    +++ + l++ t +sl+h
+                 GD108B_21_6 177 SGLSGDGAPLIDAALSlGKsgAPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVH 259
+                                 **************974442269************************************************************ PP
+
+  PD-Lambda-3__PD-Lambda-3_B 258 rkldgaq 264
+                                 r+ld+a+
+                 GD108B_21_6 260 RRLDVAT 266
+                                 ****987 PP
+
+>> GD177_20_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.6   0.0     1e-72     3e-71      12     264 ..      11     266 ..       2     271 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 235.6 bits;  conditional E-value: 1e-72
+  PD-Lambda-3__PD-Lambda-3_B  12 leaacrvladterglsgtqierllqeievadtspgmtkwkrlfnalagaqnqyqvgnhlilfinramnpvnyardaavfawrr 94 
+                                 l    +vladt  gl+g +i +ll  +++ d+  g+tkwkrl +a++  qn     + +i fi  amnp ny   ++ f+ r+
+                  GD177_20_6  11 LTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQ 93 
+                                 667889***************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B  95 delnvvlafsgfyvredgkvakadkattldaararagrlkaalesravhaevlnycraelldenyfhavfeatkgvaerirql 177
+                                 d+l+ vl+f g+ v + gkv +  +++tld a   a  l+a l  r  h evl+yc +ell++n fha +eatk v er+rq+
+                  GD177_20_6  94 DQLDEVLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQM 176
+                                 *********************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B 178 sglsgdgadlvnkafa.gq..qpvlalgplttesekseqkgfanlliglfgavrnplahapktnwpmseqdaldiltlvslih 257
+                                 sglsgdga l++ a++ g+   pv+a+ +l++++++ eq gfanl+ gl g  rnp+ah p+    +++ + l++ t +sl+h
+                  GD177_20_6 177 SGLSGDGAPLIDAALSlGKsgAPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVH 259
+                                 **************974442269************************************************************ PP
+
+  PD-Lambda-3__PD-Lambda-3_B 258 rkldgaq 264
+                                 r+ld+a+
+                  GD177_20_6 260 RRLDVAT 266
+                                 ****987 PP
+
+>> GD187_12_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.6   0.0     1e-72     3e-71      12     264 ..      11     266 ..       2     271 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 235.6 bits;  conditional E-value: 1e-72
+  PD-Lambda-3__PD-Lambda-3_B  12 leaacrvladterglsgtqierllqeievadtspgmtkwkrlfnalagaqnqyqvgnhlilfinramnpvnyardaavfawrr 94 
+                                 l    +vladt  gl+g +i +ll  +++ d+  g+tkwkrl +a++  qn     + +i fi  amnp ny   ++ f+ r+
+                  GD187_12_6  11 LTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQ 93 
+                                 667889***************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B  95 delnvvlafsgfyvredgkvakadkattldaararagrlkaalesravhaevlnycraelldenyfhavfeatkgvaerirql 177
+                                 d+l+ vl+f g+ v + gkv +  +++tld a   a  l+a l  r  h evl+yc +ell++n fha +eatk v er+rq+
+                  GD187_12_6  94 DQLDEVLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQM 176
+                                 *********************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B 178 sglsgdgadlvnkafa.gq..qpvlalgplttesekseqkgfanlliglfgavrnplahapktnwpmseqdaldiltlvslih 257
+                                 sglsgdga l++ a++ g+   pv+a+ +l++++++ eq gfanl+ gl g  rnp+ah p+    +++ + l++ t +sl+h
+                  GD187_12_6 177 SGLSGDGAPLIDAALSlGKsgAPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVH 259
+                                 **************974442269************************************************************ PP
+
+  PD-Lambda-3__PD-Lambda-3_B 258 rkldgaq 264
+                                 r+ld+a+
+                  GD187_12_6 260 RRLDVAT 266
+                                 ****987 PP
+
+>> GD18_29_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.61
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.6   0.0     1e-72     3e-71      12     264 ..      11     266 ..       2     271 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 235.6 bits;  conditional E-value: 1e-72
+  PD-Lambda-3__PD-Lambda-3_B  12 leaacrvladterglsgtqierllqeievadtspgmtkwkrlfnalagaqnqyqvgnhlilfinramnpvnyardaavfawrr 94 
+                                 l    +vladt  gl+g +i +ll  +++ d+  g+tkwkrl +a++  qn     + +i fi  amnp ny   ++ f+ r+
+                   GD18_29_6  11 LTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQ 93 
+                                 667889***************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B  95 delnvvlafsgfyvredgkvakadkattldaararagrlkaalesravhaevlnycraelldenyfhavfeatkgvaerirql 177
+                                 d+l+ vl+f g+ v + gkv +  +++tld a   a  l+a l  r  h evl+yc +ell++n fha +eatk v er+rq+
+                   GD18_29_6  94 DQLDEVLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQM 176
+                                 *********************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B 178 sglsgdgadlvnkafa.gq..qpvlalgplttesekseqkgfanlliglfgavrnplahapktnwpmseqdaldiltlvslih 257
+                                 sglsgdga l++ a++ g+   pv+a+ +l++++++ eq gfanl+ gl g  rnp+ah p+    +++ + l++ t +sl+h
+                   GD18_29_6 177 SGLSGDGAPLIDAALSlGKsgAPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVH 259
+                                 **************974442269************************************************************ PP
+
+  PD-Lambda-3__PD-Lambda-3_B 258 rkldgaq 264
+                                 r+ld+a+
+                   GD18_29_6 260 RRLDVAT 266
+                                 ****987 PP
+
+>> GD205_39_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.6   0.0     1e-72     3e-71      12     264 ..      11     266 ..       2     271 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 235.6 bits;  conditional E-value: 1e-72
+  PD-Lambda-3__PD-Lambda-3_B  12 leaacrvladterglsgtqierllqeievadtspgmtkwkrlfnalagaqnqyqvgnhlilfinramnpvnyardaavfawrr 94 
+                                 l    +vladt  gl+g +i +ll  +++ d+  g+tkwkrl +a++  qn     + +i fi  amnp ny   ++ f+ r+
+                  GD205_39_6  11 LTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQ 93 
+                                 667889***************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B  95 delnvvlafsgfyvredgkvakadkattldaararagrlkaalesravhaevlnycraelldenyfhavfeatkgvaerirql 177
+                                 d+l+ vl+f g+ v + gkv +  +++tld a   a  l+a l  r  h evl+yc +ell++n fha +eatk v er+rq+
+                  GD205_39_6  94 DQLDEVLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQM 176
+                                 *********************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B 178 sglsgdgadlvnkafa.gq..qpvlalgplttesekseqkgfanlliglfgavrnplahapktnwpmseqdaldiltlvslih 257
+                                 sglsgdga l++ a++ g+   pv+a+ +l++++++ eq gfanl+ gl g  rnp+ah p+    +++ + l++ t +sl+h
+                  GD205_39_6 177 SGLSGDGAPLIDAALSlGKsgAPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVH 259
+                                 **************974442269************************************************************ PP
+
+  PD-Lambda-3__PD-Lambda-3_B 258 rkldgaq 264
+                                 r+ld+a+
+                  GD205_39_6 260 RRLDVAT 266
+                                 ****987 PP
+
+>> GD210_9_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.61
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.6   0.0     1e-72     3e-71      12     264 ..      11     266 ..       2     271 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 235.6 bits;  conditional E-value: 1e-72
+  PD-Lambda-3__PD-Lambda-3_B  12 leaacrvladterglsgtqierllqeievadtspgmtkwkrlfnalagaqnqyqvgnhlilfinramnpvnyardaavfawrr 94 
+                                 l    +vladt  gl+g +i +ll  +++ d+  g+tkwkrl +a++  qn     + +i fi  amnp ny   ++ f+ r+
+                   GD210_9_6  11 LTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQ 93 
+                                 667889***************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B  95 delnvvlafsgfyvredgkvakadkattldaararagrlkaalesravhaevlnycraelldenyfhavfeatkgvaerirql 177
+                                 d+l+ vl+f g+ v + gkv +  +++tld a   a  l+a l  r  h evl+yc +ell++n fha +eatk v er+rq+
+                   GD210_9_6  94 DQLDEVLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQM 176
+                                 *********************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B 178 sglsgdgadlvnkafa.gq..qpvlalgplttesekseqkgfanlliglfgavrnplahapktnwpmseqdaldiltlvslih 257
+                                 sglsgdga l++ a++ g+   pv+a+ +l++++++ eq gfanl+ gl g  rnp+ah p+    +++ + l++ t +sl+h
+                   GD210_9_6 177 SGLSGDGAPLIDAALSlGKsgAPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVH 259
+                                 **************974442269************************************************************ PP
+
+  PD-Lambda-3__PD-Lambda-3_B 258 rkldgaq 264
+                                 r+ld+a+
+                   GD210_9_6 260 RRLDVAT 266
+                                 ****987 PP
+
+>> GD212_8_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.61
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.6   0.0     1e-72     3e-71      12     264 ..      11     266 ..       2     271 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 235.6 bits;  conditional E-value: 1e-72
+  PD-Lambda-3__PD-Lambda-3_B  12 leaacrvladterglsgtqierllqeievadtspgmtkwkrlfnalagaqnqyqvgnhlilfinramnpvnyardaavfawrr 94 
+                                 l    +vladt  gl+g +i +ll  +++ d+  g+tkwkrl +a++  qn     + +i fi  amnp ny   ++ f+ r+
+                   GD212_8_6  11 LTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQ 93 
+                                 667889***************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B  95 delnvvlafsgfyvredgkvakadkattldaararagrlkaalesravhaevlnycraelldenyfhavfeatkgvaerirql 177
+                                 d+l+ vl+f g+ v + gkv +  +++tld a   a  l+a l  r  h evl+yc +ell++n fha +eatk v er+rq+
+                   GD212_8_6  94 DQLDEVLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQM 176
+                                 *********************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B 178 sglsgdgadlvnkafa.gq..qpvlalgplttesekseqkgfanlliglfgavrnplahapktnwpmseqdaldiltlvslih 257
+                                 sglsgdga l++ a++ g+   pv+a+ +l++++++ eq gfanl+ gl g  rnp+ah p+    +++ + l++ t +sl+h
+                   GD212_8_6 177 SGLSGDGAPLIDAALSlGKsgAPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVH 259
+                                 **************974442269************************************************************ PP
+
+  PD-Lambda-3__PD-Lambda-3_B 258 rkldgaq 264
+                                 r+ld+a+
+                   GD212_8_6 260 RRLDVAT 266
+                                 ****987 PP
+
+>> GD231_12_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.6   0.0     1e-72     3e-71      12     264 ..      11     266 ..       2     271 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 235.6 bits;  conditional E-value: 1e-72
+  PD-Lambda-3__PD-Lambda-3_B  12 leaacrvladterglsgtqierllqeievadtspgmtkwkrlfnalagaqnqyqvgnhlilfinramnpvnyardaavfawrr 94 
+                                 l    +vladt  gl+g +i +ll  +++ d+  g+tkwkrl +a++  qn     + +i fi  amnp ny   ++ f+ r+
+                  GD231_12_6  11 LTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQ 93 
+                                 667889***************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B  95 delnvvlafsgfyvredgkvakadkattldaararagrlkaalesravhaevlnycraelldenyfhavfeatkgvaerirql 177
+                                 d+l+ vl+f g+ v + gkv +  +++tld a   a  l+a l  r  h evl+yc +ell++n fha +eatk v er+rq+
+                  GD231_12_6  94 DQLDEVLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQM 176
+                                 *********************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B 178 sglsgdgadlvnkafa.gq..qpvlalgplttesekseqkgfanlliglfgavrnplahapktnwpmseqdaldiltlvslih 257
+                                 sglsgdga l++ a++ g+   pv+a+ +l++++++ eq gfanl+ gl g  rnp+ah p+    +++ + l++ t +sl+h
+                  GD231_12_6 177 SGLSGDGAPLIDAALSlGKsgAPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVH 259
+                                 **************974442269************************************************************ PP
+
+  PD-Lambda-3__PD-Lambda-3_B 258 rkldgaq 264
+                                 r+ld+a+
+                  GD231_12_6 260 RRLDVAT 266
+                                 ****987 PP
+
+>> GD233A_15_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.6   0.0     1e-72     3e-71      12     264 ..      11     266 ..       2     271 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 235.6 bits;  conditional E-value: 1e-72
+  PD-Lambda-3__PD-Lambda-3_B  12 leaacrvladterglsgtqierllqeievadtspgmtkwkrlfnalagaqnqyqvgnhlilfinramnpvnyardaavfawrr 94 
+                                 l    +vladt  gl+g +i +ll  +++ d+  g+tkwkrl +a++  qn     + +i fi  amnp ny   ++ f+ r+
+                 GD233A_15_6  11 LTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQ 93 
+                                 667889***************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B  95 delnvvlafsgfyvredgkvakadkattldaararagrlkaalesravhaevlnycraelldenyfhavfeatkgvaerirql 177
+                                 d+l+ vl+f g+ v + gkv +  +++tld a   a  l+a l  r  h evl+yc +ell++n fha +eatk v er+rq+
+                 GD233A_15_6  94 DQLDEVLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQM 176
+                                 *********************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B 178 sglsgdgadlvnkafa.gq..qpvlalgplttesekseqkgfanlliglfgavrnplahapktnwpmseqdaldiltlvslih 257
+                                 sglsgdga l++ a++ g+   pv+a+ +l++++++ eq gfanl+ gl g  rnp+ah p+    +++ + l++ t +sl+h
+                 GD233A_15_6 177 SGLSGDGAPLIDAALSlGKsgAPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVH 259
+                                 **************974442269************************************************************ PP
+
+  PD-Lambda-3__PD-Lambda-3_B 258 rkldgaq 264
+                                 r+ld+a+
+                 GD233A_15_6 260 RRLDVAT 266
+                                 ****987 PP
+
+>> GD233B_16_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.6   0.0     1e-72     3e-71      12     264 ..      11     266 ..       2     271 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 235.6 bits;  conditional E-value: 1e-72
+  PD-Lambda-3__PD-Lambda-3_B  12 leaacrvladterglsgtqierllqeievadtspgmtkwkrlfnalagaqnqyqvgnhlilfinramnpvnyardaavfawrr 94 
+                                 l    +vladt  gl+g +i +ll  +++ d+  g+tkwkrl +a++  qn     + +i fi  amnp ny   ++ f+ r+
+                 GD233B_16_6  11 LTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQ 93 
+                                 667889***************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B  95 delnvvlafsgfyvredgkvakadkattldaararagrlkaalesravhaevlnycraelldenyfhavfeatkgvaerirql 177
+                                 d+l+ vl+f g+ v + gkv +  +++tld a   a  l+a l  r  h evl+yc +ell++n fha +eatk v er+rq+
+                 GD233B_16_6  94 DQLDEVLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQM 176
+                                 *********************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B 178 sglsgdgadlvnkafa.gq..qpvlalgplttesekseqkgfanlliglfgavrnplahapktnwpmseqdaldiltlvslih 257
+                                 sglsgdga l++ a++ g+   pv+a+ +l++++++ eq gfanl+ gl g  rnp+ah p+    +++ + l++ t +sl+h
+                 GD233B_16_6 177 SGLSGDGAPLIDAALSlGKsgAPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVH 259
+                                 **************974442269************************************************************ PP
+
+  PD-Lambda-3__PD-Lambda-3_B 258 rkldgaq 264
+                                 r+ld+a+
+                 GD233B_16_6 260 RRLDVAT 266
+                                 ****987 PP
+
+>> GD23_8_25  # 18093 # 18914 # 1 # ID=1_25;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.6   0.0     1e-72     3e-71      12     264 ..      11     266 ..       2     271 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 235.6 bits;  conditional E-value: 1e-72
+  PD-Lambda-3__PD-Lambda-3_B  12 leaacrvladterglsgtqierllqeievadtspgmtkwkrlfnalagaqnqyqvgnhlilfinramnpvnyardaavfawrr 94 
+                                 l    +vladt  gl+g +i +ll  +++ d+  g+tkwkrl +a++  qn     + +i fi  amnp ny   ++ f+ r+
+                   GD23_8_25  11 LTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQ 93 
+                                 667889***************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B  95 delnvvlafsgfyvredgkvakadkattldaararagrlkaalesravhaevlnycraelldenyfhavfeatkgvaerirql 177
+                                 d+l+ vl+f g+ v + gkv +  +++tld a   a  l+a l  r  h evl+yc +ell++n fha +eatk v er+rq+
+                   GD23_8_25  94 DQLDEVLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQM 176
+                                 *********************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B 178 sglsgdgadlvnkafa.gq..qpvlalgplttesekseqkgfanlliglfgavrnplahapktnwpmseqdaldiltlvslih 257
+                                 sglsgdga l++ a++ g+   pv+a+ +l++++++ eq gfanl+ gl g  rnp+ah p+    +++ + l++ t +sl+h
+                   GD23_8_25 177 SGLSGDGAPLIDAALSlGKsgAPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVH 259
+                                 **************974442269************************************************************ PP
+
+  PD-Lambda-3__PD-Lambda-3_B 258 rkldgaq 264
+                                 r+ld+a+
+                   GD23_8_25 260 RRLDVAT 266
+                                 ****987 PP
+
+>> GD255_28_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.6   0.0     1e-72     3e-71      12     264 ..      11     266 ..       2     271 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 235.6 bits;  conditional E-value: 1e-72
+  PD-Lambda-3__PD-Lambda-3_B  12 leaacrvladterglsgtqierllqeievadtspgmtkwkrlfnalagaqnqyqvgnhlilfinramnpvnyardaavfawrr 94 
+                                 l    +vladt  gl+g +i +ll  +++ d+  g+tkwkrl +a++  qn     + +i fi  amnp ny   ++ f+ r+
+                  GD255_28_6  11 LTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQ 93 
+                                 667889***************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B  95 delnvvlafsgfyvredgkvakadkattldaararagrlkaalesravhaevlnycraelldenyfhavfeatkgvaerirql 177
+                                 d+l+ vl+f g+ v + gkv +  +++tld a   a  l+a l  r  h evl+yc +ell++n fha +eatk v er+rq+
+                  GD255_28_6  94 DQLDEVLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQM 176
+                                 *********************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B 178 sglsgdgadlvnkafa.gq..qpvlalgplttesekseqkgfanlliglfgavrnplahapktnwpmseqdaldiltlvslih 257
+                                 sglsgdga l++ a++ g+   pv+a+ +l++++++ eq gfanl+ gl g  rnp+ah p+    +++ + l++ t +sl+h
+                  GD255_28_6 177 SGLSGDGAPLIDAALSlGKsgAPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVH 259
+                                 **************974442269************************************************************ PP
+
+  PD-Lambda-3__PD-Lambda-3_B 258 rkldgaq 264
+                                 r+ld+a+
+                  GD255_28_6 260 RRLDVAT 266
+                                 ****987 PP
+
+>> GD295A_12_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.6   0.0     1e-72     3e-71      12     264 ..      11     266 ..       2     271 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 235.6 bits;  conditional E-value: 1e-72
+  PD-Lambda-3__PD-Lambda-3_B  12 leaacrvladterglsgtqierllqeievadtspgmtkwkrlfnalagaqnqyqvgnhlilfinramnpvnyardaavfawrr 94 
+                                 l    +vladt  gl+g +i +ll  +++ d+  g+tkwkrl +a++  qn     + +i fi  amnp ny   ++ f+ r+
+                 GD295A_12_6  11 LTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQ 93 
+                                 667889***************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B  95 delnvvlafsgfyvredgkvakadkattldaararagrlkaalesravhaevlnycraelldenyfhavfeatkgvaerirql 177
+                                 d+l+ vl+f g+ v + gkv +  +++tld a   a  l+a l  r  h evl+yc +ell++n fha +eatk v er+rq+
+                 GD295A_12_6  94 DQLDEVLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQM 176
+                                 *********************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B 178 sglsgdgadlvnkafa.gq..qpvlalgplttesekseqkgfanlliglfgavrnplahapktnwpmseqdaldiltlvslih 257
+                                 sglsgdga l++ a++ g+   pv+a+ +l++++++ eq gfanl+ gl g  rnp+ah p+    +++ + l++ t +sl+h
+                 GD295A_12_6 177 SGLSGDGAPLIDAALSlGKsgAPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVH 259
+                                 **************974442269************************************************************ PP
+
+  PD-Lambda-3__PD-Lambda-3_B 258 rkldgaq 264
+                                 r+ld+a+
+                 GD295A_12_6 260 RRLDVAT 266
+                                 ****987 PP
+
+>> GD297_19_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.6   0.0     1e-72     3e-71      12     264 ..      11     266 ..       2     271 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 235.6 bits;  conditional E-value: 1e-72
+  PD-Lambda-3__PD-Lambda-3_B  12 leaacrvladterglsgtqierllqeievadtspgmtkwkrlfnalagaqnqyqvgnhlilfinramnpvnyardaavfawrr 94 
+                                 l    +vladt  gl+g +i +ll  +++ d+  g+tkwkrl +a++  qn     + +i fi  amnp ny   ++ f+ r+
+                  GD297_19_6  11 LTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQ 93 
+                                 667889***************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B  95 delnvvlafsgfyvredgkvakadkattldaararagrlkaalesravhaevlnycraelldenyfhavfeatkgvaerirql 177
+                                 d+l+ vl+f g+ v + gkv +  +++tld a   a  l+a l  r  h evl+yc +ell++n fha +eatk v er+rq+
+                  GD297_19_6  94 DQLDEVLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQM 176
+                                 *********************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B 178 sglsgdgadlvnkafa.gq..qpvlalgplttesekseqkgfanlliglfgavrnplahapktnwpmseqdaldiltlvslih 257
+                                 sglsgdga l++ a++ g+   pv+a+ +l++++++ eq gfanl+ gl g  rnp+ah p+    +++ + l++ t +sl+h
+                  GD297_19_6 177 SGLSGDGAPLIDAALSlGKsgAPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVH 259
+                                 **************974442269************************************************************ PP
+
+  PD-Lambda-3__PD-Lambda-3_B 258 rkldgaq 264
+                                 r+ld+a+
+                  GD297_19_6 260 RRLDVAT 266
+                                 ****987 PP
+
+>> GD305B_28_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.6   0.0     1e-72     3e-71      12     264 ..      11     266 ..       2     271 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 235.6 bits;  conditional E-value: 1e-72
+  PD-Lambda-3__PD-Lambda-3_B  12 leaacrvladterglsgtqierllqeievadtspgmtkwkrlfnalagaqnqyqvgnhlilfinramnpvnyardaavfawrr 94 
+                                 l    +vladt  gl+g +i +ll  +++ d+  g+tkwkrl +a++  qn     + +i fi  amnp ny   ++ f+ r+
+                 GD305B_28_6  11 LTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQ 93 
+                                 667889***************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B  95 delnvvlafsgfyvredgkvakadkattldaararagrlkaalesravhaevlnycraelldenyfhavfeatkgvaerirql 177
+                                 d+l+ vl+f g+ v + gkv +  +++tld a   a  l+a l  r  h evl+yc +ell++n fha +eatk v er+rq+
+                 GD305B_28_6  94 DQLDEVLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQM 176
+                                 *********************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B 178 sglsgdgadlvnkafa.gq..qpvlalgplttesekseqkgfanlliglfgavrnplahapktnwpmseqdaldiltlvslih 257
+                                 sglsgdga l++ a++ g+   pv+a+ +l++++++ eq gfanl+ gl g  rnp+ah p+    +++ + l++ t +sl+h
+                 GD305B_28_6 177 SGLSGDGAPLIDAALSlGKsgAPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVH 259
+                                 **************974442269************************************************************ PP
+
+  PD-Lambda-3__PD-Lambda-3_B 258 rkldgaq 264
+                                 r+ld+a+
+                 GD305B_28_6 260 RRLDVAT 266
+                                 ****987 PP
+
+>> GD340_32_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.6   0.0     1e-72     3e-71      12     264 ..      11     266 ..       2     271 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 235.6 bits;  conditional E-value: 1e-72
+  PD-Lambda-3__PD-Lambda-3_B  12 leaacrvladterglsgtqierllqeievadtspgmtkwkrlfnalagaqnqyqvgnhlilfinramnpvnyardaavfawrr 94 
+                                 l    +vladt  gl+g +i +ll  +++ d+  g+tkwkrl +a++  qn     + +i fi  amnp ny   ++ f+ r+
+                  GD340_32_6  11 LTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQ 93 
+                                 667889***************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B  95 delnvvlafsgfyvredgkvakadkattldaararagrlkaalesravhaevlnycraelldenyfhavfeatkgvaerirql 177
+                                 d+l+ vl+f g+ v + gkv +  +++tld a   a  l+a l  r  h evl+yc +ell++n fha +eatk v er+rq+
+                  GD340_32_6  94 DQLDEVLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQM 176
+                                 *********************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B 178 sglsgdgadlvnkafa.gq..qpvlalgplttesekseqkgfanlliglfgavrnplahapktnwpmseqdaldiltlvslih 257
+                                 sglsgdga l++ a++ g+   pv+a+ +l++++++ eq gfanl+ gl g  rnp+ah p+    +++ + l++ t +sl+h
+                  GD340_32_6 177 SGLSGDGAPLIDAALSlGKsgAPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVH 259
+                                 **************974442269************************************************************ PP
+
+  PD-Lambda-3__PD-Lambda-3_B 258 rkldgaq 264
+                                 r+ld+a+
+                  GD340_32_6 260 RRLDVAT 266
+                                 ****987 PP
+
+>> GD346_16_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.6   0.0     1e-72     3e-71      12     264 ..      11     266 ..       2     271 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 235.6 bits;  conditional E-value: 1e-72
+  PD-Lambda-3__PD-Lambda-3_B  12 leaacrvladterglsgtqierllqeievadtspgmtkwkrlfnalagaqnqyqvgnhlilfinramnpvnyardaavfawrr 94 
+                                 l    +vladt  gl+g +i +ll  +++ d+  g+tkwkrl +a++  qn     + +i fi  amnp ny   ++ f+ r+
+                  GD346_16_6  11 LTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQ 93 
+                                 667889***************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B  95 delnvvlafsgfyvredgkvakadkattldaararagrlkaalesravhaevlnycraelldenyfhavfeatkgvaerirql 177
+                                 d+l+ vl+f g+ v + gkv +  +++tld a   a  l+a l  r  h evl+yc +ell++n fha +eatk v er+rq+
+                  GD346_16_6  94 DQLDEVLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQM 176
+                                 *********************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B 178 sglsgdgadlvnkafa.gq..qpvlalgplttesekseqkgfanlliglfgavrnplahapktnwpmseqdaldiltlvslih 257
+                                 sglsgdga l++ a++ g+   pv+a+ +l++++++ eq gfanl+ gl g  rnp+ah p+    +++ + l++ t +sl+h
+                  GD346_16_6 177 SGLSGDGAPLIDAALSlGKsgAPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVH 259
+                                 **************974442269************************************************************ PP
+
+  PD-Lambda-3__PD-Lambda-3_B 258 rkldgaq 264
+                                 r+ld+a+
+                  GD346_16_6 260 RRLDVAT 266
+                                 ****987 PP
+
+>> GD347_1B_19_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.6   0.0     1e-72     3e-71      12     264 ..      11     266 ..       2     271 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 235.6 bits;  conditional E-value: 1e-72
+  PD-Lambda-3__PD-Lambda-3_B  12 leaacrvladterglsgtqierllqeievadtspgmtkwkrlfnalagaqnqyqvgnhlilfinramnpvnyardaavfawrr 94 
+                                 l    +vladt  gl+g +i +ll  +++ d+  g+tkwkrl +a++  qn     + +i fi  amnp ny   ++ f+ r+
+               GD347_1B_19_6  11 LTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQ 93 
+                                 667889***************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B  95 delnvvlafsgfyvredgkvakadkattldaararagrlkaalesravhaevlnycraelldenyfhavfeatkgvaerirql 177
+                                 d+l+ vl+f g+ v + gkv +  +++tld a   a  l+a l  r  h evl+yc +ell++n fha +eatk v er+rq+
+               GD347_1B_19_6  94 DQLDEVLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQM 176
+                                 *********************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B 178 sglsgdgadlvnkafa.gq..qpvlalgplttesekseqkgfanlliglfgavrnplahapktnwpmseqdaldiltlvslih 257
+                                 sglsgdga l++ a++ g+   pv+a+ +l++++++ eq gfanl+ gl g  rnp+ah p+    +++ + l++ t +sl+h
+               GD347_1B_19_6 177 SGLSGDGAPLIDAALSlGKsgAPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVH 259
+                                 **************974442269************************************************************ PP
+
+  PD-Lambda-3__PD-Lambda-3_B 258 rkldgaq 264
+                                 r+ld+a+
+               GD347_1B_19_6 260 RRLDVAT 266
+                                 ****987 PP
+
+>> GD365_18_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.6   0.0     1e-72     3e-71      12     264 ..      11     266 ..       2     271 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 235.6 bits;  conditional E-value: 1e-72
+  PD-Lambda-3__PD-Lambda-3_B  12 leaacrvladterglsgtqierllqeievadtspgmtkwkrlfnalagaqnqyqvgnhlilfinramnpvnyardaavfawrr 94 
+                                 l    +vladt  gl+g +i +ll  +++ d+  g+tkwkrl +a++  qn     + +i fi  amnp ny   ++ f+ r+
+                  GD365_18_6  11 LTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQ 93 
+                                 667889***************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B  95 delnvvlafsgfyvredgkvakadkattldaararagrlkaalesravhaevlnycraelldenyfhavfeatkgvaerirql 177
+                                 d+l+ vl+f g+ v + gkv +  +++tld a   a  l+a l  r  h evl+yc +ell++n fha +eatk v er+rq+
+                  GD365_18_6  94 DQLDEVLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQM 176
+                                 *********************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B 178 sglsgdgadlvnkafa.gq..qpvlalgplttesekseqkgfanlliglfgavrnplahapktnwpmseqdaldiltlvslih 257
+                                 sglsgdga l++ a++ g+   pv+a+ +l++++++ eq gfanl+ gl g  rnp+ah p+    +++ + l++ t +sl+h
+                  GD365_18_6 177 SGLSGDGAPLIDAALSlGKsgAPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVH 259
+                                 **************974442269************************************************************ PP
+
+  PD-Lambda-3__PD-Lambda-3_B 258 rkldgaq 264
+                                 r+ld+a+
+                  GD365_18_6 260 RRLDVAT 266
+                                 ****987 PP
+
+>> GD36_37_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.61
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.6   0.0     1e-72     3e-71      12     264 ..      11     266 ..       2     271 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 235.6 bits;  conditional E-value: 1e-72
+  PD-Lambda-3__PD-Lambda-3_B  12 leaacrvladterglsgtqierllqeievadtspgmtkwkrlfnalagaqnqyqvgnhlilfinramnpvnyardaavfawrr 94 
+                                 l    +vladt  gl+g +i +ll  +++ d+  g+tkwkrl +a++  qn     + +i fi  amnp ny   ++ f+ r+
+                   GD36_37_6  11 LTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQ 93 
+                                 667889***************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B  95 delnvvlafsgfyvredgkvakadkattldaararagrlkaalesravhaevlnycraelldenyfhavfeatkgvaerirql 177
+                                 d+l+ vl+f g+ v + gkv +  +++tld a   a  l+a l  r  h evl+yc +ell++n fha +eatk v er+rq+
+                   GD36_37_6  94 DQLDEVLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQM 176
+                                 *********************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B 178 sglsgdgadlvnkafa.gq..qpvlalgplttesekseqkgfanlliglfgavrnplahapktnwpmseqdaldiltlvslih 257
+                                 sglsgdga l++ a++ g+   pv+a+ +l++++++ eq gfanl+ gl g  rnp+ah p+    +++ + l++ t +sl+h
+                   GD36_37_6 177 SGLSGDGAPLIDAALSlGKsgAPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVH 259
+                                 **************974442269************************************************************ PP
+
+  PD-Lambda-3__PD-Lambda-3_B 258 rkldgaq 264
+                                 r+ld+a+
+                   GD36_37_6 260 RRLDVAT 266
+                                 ****987 PP
+
+>> GD42__GD42_Plasmid1_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.6   0.0     1e-72     3e-71      12     264 ..      11     266 ..       2     271 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 235.6 bits;  conditional E-value: 1e-72
+  PD-Lambda-3__PD-Lambda-3_B  12 leaacrvladterglsgtqierllqeievadtspgmtkwkrlfnalagaqnqyqvgnhlilfinramnpvnyardaavfawrr 94 
+                                 l    +vladt  gl+g +i +ll  +++ d+  g+tkwkrl +a++  qn     + +i fi  amnp ny   ++ f+ r+
+       GD42__GD42_Plasmid1_6  11 LTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQ 93 
+                                 667889***************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B  95 delnvvlafsgfyvredgkvakadkattldaararagrlkaalesravhaevlnycraelldenyfhavfeatkgvaerirql 177
+                                 d+l+ vl+f g+ v + gkv +  +++tld a   a  l+a l  r  h evl+yc +ell++n fha +eatk v er+rq+
+       GD42__GD42_Plasmid1_6  94 DQLDEVLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQM 176
+                                 *********************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B 178 sglsgdgadlvnkafa.gq..qpvlalgplttesekseqkgfanlliglfgavrnplahapktnwpmseqdaldiltlvslih 257
+                                 sglsgdga l++ a++ g+   pv+a+ +l++++++ eq gfanl+ gl g  rnp+ah p+    +++ + l++ t +sl+h
+       GD42__GD42_Plasmid1_6 177 SGLSGDGAPLIDAALSlGKsgAPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVH 259
+                                 **************974442269************************************************************ PP
+
+  PD-Lambda-3__PD-Lambda-3_B 258 rkldgaq 264
+                                 r+ld+a+
+       GD42__GD42_Plasmid1_6 260 RRLDVAT 266
+                                 ****987 PP
+
+>> GD47A_16_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.6   0.0     1e-72     3e-71      12     264 ..      11     266 ..       2     271 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 235.6 bits;  conditional E-value: 1e-72
+  PD-Lambda-3__PD-Lambda-3_B  12 leaacrvladterglsgtqierllqeievadtspgmtkwkrlfnalagaqnqyqvgnhlilfinramnpvnyardaavfawrr 94 
+                                 l    +vladt  gl+g +i +ll  +++ d+  g+tkwkrl +a++  qn     + +i fi  amnp ny   ++ f+ r+
+                  GD47A_16_6  11 LTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQ 93 
+                                 667889***************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B  95 delnvvlafsgfyvredgkvakadkattldaararagrlkaalesravhaevlnycraelldenyfhavfeatkgvaerirql 177
+                                 d+l+ vl+f g+ v + gkv +  +++tld a   a  l+a l  r  h evl+yc +ell++n fha +eatk v er+rq+
+                  GD47A_16_6  94 DQLDEVLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQM 176
+                                 *********************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B 178 sglsgdgadlvnkafa.gq..qpvlalgplttesekseqkgfanlliglfgavrnplahapktnwpmseqdaldiltlvslih 257
+                                 sglsgdga l++ a++ g+   pv+a+ +l++++++ eq gfanl+ gl g  rnp+ah p+    +++ + l++ t +sl+h
+                  GD47A_16_6 177 SGLSGDGAPLIDAALSlGKsgAPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVH 259
+                                 **************974442269************************************************************ PP
+
+  PD-Lambda-3__PD-Lambda-3_B 258 rkldgaq 264
+                                 r+ld+a+
+                  GD47A_16_6 260 RRLDVAT 266
+                                 ****987 PP
+
+>> GD521_38_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.6   0.0     1e-72     3e-71      12     264 ..      11     266 ..       2     271 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 235.6 bits;  conditional E-value: 1e-72
+  PD-Lambda-3__PD-Lambda-3_B  12 leaacrvladterglsgtqierllqeievadtspgmtkwkrlfnalagaqnqyqvgnhlilfinramnpvnyardaavfawrr 94 
+                                 l    +vladt  gl+g +i +ll  +++ d+  g+tkwkrl +a++  qn     + +i fi  amnp ny   ++ f+ r+
+                  GD521_38_6  11 LTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQ 93 
+                                 667889***************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B  95 delnvvlafsgfyvredgkvakadkattldaararagrlkaalesravhaevlnycraelldenyfhavfeatkgvaerirql 177
+                                 d+l+ vl+f g+ v + gkv +  +++tld a   a  l+a l  r  h evl+yc +ell++n fha +eatk v er+rq+
+                  GD521_38_6  94 DQLDEVLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQM 176
+                                 *********************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B 178 sglsgdgadlvnkafa.gq..qpvlalgplttesekseqkgfanlliglfgavrnplahapktnwpmseqdaldiltlvslih 257
+                                 sglsgdga l++ a++ g+   pv+a+ +l++++++ eq gfanl+ gl g  rnp+ah p+    +++ + l++ t +sl+h
+                  GD521_38_6 177 SGLSGDGAPLIDAALSlGKsgAPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVH 259
+                                 **************974442269************************************************************ PP
+
+  PD-Lambda-3__PD-Lambda-3_B 258 rkldgaq 264
+                                 r+ld+a+
+                  GD521_38_6 260 RRLDVAT 266
+                                 ****987 PP
+
+>> GD62_27_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.61
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.6   0.0     1e-72     3e-71      12     264 ..      11     266 ..       2     271 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 235.6 bits;  conditional E-value: 1e-72
+  PD-Lambda-3__PD-Lambda-3_B  12 leaacrvladterglsgtqierllqeievadtspgmtkwkrlfnalagaqnqyqvgnhlilfinramnpvnyardaavfawrr 94 
+                                 l    +vladt  gl+g +i +ll  +++ d+  g+tkwkrl +a++  qn     + +i fi  amnp ny   ++ f+ r+
+                   GD62_27_6  11 LTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQ 93 
+                                 667889***************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B  95 delnvvlafsgfyvredgkvakadkattldaararagrlkaalesravhaevlnycraelldenyfhavfeatkgvaerirql 177
+                                 d+l+ vl+f g+ v + gkv +  +++tld a   a  l+a l  r  h evl+yc +ell++n fha +eatk v er+rq+
+                   GD62_27_6  94 DQLDEVLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQM 176
+                                 *********************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B 178 sglsgdgadlvnkafa.gq..qpvlalgplttesekseqkgfanlliglfgavrnplahapktnwpmseqdaldiltlvslih 257
+                                 sglsgdga l++ a++ g+   pv+a+ +l++++++ eq gfanl+ gl g  rnp+ah p+    +++ + l++ t +sl+h
+                   GD62_27_6 177 SGLSGDGAPLIDAALSlGKsgAPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVH 259
+                                 **************974442269************************************************************ PP
+
+  PD-Lambda-3__PD-Lambda-3_B 258 rkldgaq 264
+                                 r+ld+a+
+                   GD62_27_6 260 RRLDVAT 266
+                                 ****987 PP
+
+>> GD72_30_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.61
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.6   0.0     1e-72     3e-71      12     264 ..      11     266 ..       2     271 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 235.6 bits;  conditional E-value: 1e-72
+  PD-Lambda-3__PD-Lambda-3_B  12 leaacrvladterglsgtqierllqeievadtspgmtkwkrlfnalagaqnqyqvgnhlilfinramnpvnyardaavfawrr 94 
+                                 l    +vladt  gl+g +i +ll  +++ d+  g+tkwkrl +a++  qn     + +i fi  amnp ny   ++ f+ r+
+                   GD72_30_6  11 LTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQ 93 
+                                 667889***************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B  95 delnvvlafsgfyvredgkvakadkattldaararagrlkaalesravhaevlnycraelldenyfhavfeatkgvaerirql 177
+                                 d+l+ vl+f g+ v + gkv +  +++tld a   a  l+a l  r  h evl+yc +ell++n fha +eatk v er+rq+
+                   GD72_30_6  94 DQLDEVLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQM 176
+                                 *********************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B 178 sglsgdgadlvnkafa.gq..qpvlalgplttesekseqkgfanlliglfgavrnplahapktnwpmseqdaldiltlvslih 257
+                                 sglsgdga l++ a++ g+   pv+a+ +l++++++ eq gfanl+ gl g  rnp+ah p+    +++ + l++ t +sl+h
+                   GD72_30_6 177 SGLSGDGAPLIDAALSlGKsgAPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVH 259
+                                 **************974442269************************************************************ PP
+
+  PD-Lambda-3__PD-Lambda-3_B 258 rkldgaq 264
+                                 r+ld+a+
+                   GD72_30_6 260 RRLDVAT 266
+                                 ****987 PP
+
+>> GD85_35_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.61
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.6   0.0     1e-72     3e-71      12     264 ..      11     266 ..       2     271 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 235.6 bits;  conditional E-value: 1e-72
+  PD-Lambda-3__PD-Lambda-3_B  12 leaacrvladterglsgtqierllqeievadtspgmtkwkrlfnalagaqnqyqvgnhlilfinramnpvnyardaavfawrr 94 
+                                 l    +vladt  gl+g +i +ll  +++ d+  g+tkwkrl +a++  qn     + +i fi  amnp ny   ++ f+ r+
+                   GD85_35_6  11 LTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQ 93 
+                                 667889***************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B  95 delnvvlafsgfyvredgkvakadkattldaararagrlkaalesravhaevlnycraelldenyfhavfeatkgvaerirql 177
+                                 d+l+ vl+f g+ v + gkv +  +++tld a   a  l+a l  r  h evl+yc +ell++n fha +eatk v er+rq+
+                   GD85_35_6  94 DQLDEVLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQM 176
+                                 *********************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B 178 sglsgdgadlvnkafa.gq..qpvlalgplttesekseqkgfanlliglfgavrnplahapktnwpmseqdaldiltlvslih 257
+                                 sglsgdga l++ a++ g+   pv+a+ +l++++++ eq gfanl+ gl g  rnp+ah p+    +++ + l++ t +sl+h
+                   GD85_35_6 177 SGLSGDGAPLIDAALSlGKsgAPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVH 259
+                                 **************974442269************************************************************ PP
+
+  PD-Lambda-3__PD-Lambda-3_B 258 rkldgaq 264
+                                 r+ld+a+
+                   GD85_35_6 260 RRLDVAT 266
+                                 ****987 PP
+
+>> GD87_44_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.61
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.6   0.0     1e-72     3e-71      12     264 ..      11     266 ..       2     271 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 235.6 bits;  conditional E-value: 1e-72
+  PD-Lambda-3__PD-Lambda-3_B  12 leaacrvladterglsgtqierllqeievadtspgmtkwkrlfnalagaqnqyqvgnhlilfinramnpvnyardaavfawrr 94 
+                                 l    +vladt  gl+g +i +ll  +++ d+  g+tkwkrl +a++  qn     + +i fi  amnp ny   ++ f+ r+
+                   GD87_44_6  11 LTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQ 93 
+                                 667889***************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B  95 delnvvlafsgfyvredgkvakadkattldaararagrlkaalesravhaevlnycraelldenyfhavfeatkgvaerirql 177
+                                 d+l+ vl+f g+ v + gkv +  +++tld a   a  l+a l  r  h evl+yc +ell++n fha +eatk v er+rq+
+                   GD87_44_6  94 DQLDEVLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQM 176
+                                 *********************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B 178 sglsgdgadlvnkafa.gq..qpvlalgplttesekseqkgfanlliglfgavrnplahapktnwpmseqdaldiltlvslih 257
+                                 sglsgdga l++ a++ g+   pv+a+ +l++++++ eq gfanl+ gl g  rnp+ah p+    +++ + l++ t +sl+h
+                   GD87_44_6 177 SGLSGDGAPLIDAALSlGKsgAPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVH 259
+                                 **************974442269************************************************************ PP
+
+  PD-Lambda-3__PD-Lambda-3_B 258 rkldgaq 264
+                                 r+ld+a+
+                   GD87_44_6 260 RRLDVAT 266
+                                 ****987 PP
+
+>> GD95_33_6  # 6853 # 7674 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.61
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.6   0.0     1e-72     3e-71      12     264 ..      11     266 ..       2     271 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 235.6 bits;  conditional E-value: 1e-72
+  PD-Lambda-3__PD-Lambda-3_B  12 leaacrvladterglsgtqierllqeievadtspgmtkwkrlfnalagaqnqyqvgnhlilfinramnpvnyardaavfawrr 94 
+                                 l    +vladt  gl+g +i +ll  +++ d+  g+tkwkrl +a++  qn     + +i fi  amnp ny   ++ f+ r+
+                   GD95_33_6  11 LTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQ 93 
+                                 667889***************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B  95 delnvvlafsgfyvredgkvakadkattldaararagrlkaalesravhaevlnycraelldenyfhavfeatkgvaerirql 177
+                                 d+l+ vl+f g+ v + gkv +  +++tld a   a  l+a l  r  h evl+yc +ell++n fha +eatk v er+rq+
+                   GD95_33_6  94 DQLDEVLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQM 176
+                                 *********************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B 178 sglsgdgadlvnkafa.gq..qpvlalgplttesekseqkgfanlliglfgavrnplahapktnwpmseqdaldiltlvslih 257
+                                 sglsgdga l++ a++ g+   pv+a+ +l++++++ eq gfanl+ gl g  rnp+ah p+    +++ + l++ t +sl+h
+                   GD95_33_6 177 SGLSGDGAPLIDAALSlGKsgAPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVH 259
+                                 **************974442269************************************************************ PP
+
+  PD-Lambda-3__PD-Lambda-3_B 258 rkldgaq 264
+                                 r+ld+a+
+                   GD95_33_6 260 RRLDVAT 266
+                                 ****987 PP
+
+>> pGD69A-1_6  # 7165 # 7986 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.6   0.0     1e-72     3e-71      12     264 ..      11     266 ..       2     271 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 235.6 bits;  conditional E-value: 1e-72
+  PD-Lambda-3__PD-Lambda-3_B  12 leaacrvladterglsgtqierllqeievadtspgmtkwkrlfnalagaqnqyqvgnhlilfinramnpvnyardaavfawrr 94 
+                                 l    +vladt  gl+g +i +ll  +++ d+  g+tkwkrl +a++  qn     + +i fi  amnp ny   ++ f+ r+
+                  pGD69A-1_6  11 LTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQ 93 
+                                 667889***************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B  95 delnvvlafsgfyvredgkvakadkattldaararagrlkaalesravhaevlnycraelldenyfhavfeatkgvaerirql 177
+                                 d+l+ vl+f g+ v + gkv +  +++tld a   a  l+a l  r  h evl+yc +ell++n fha +eatk v er+rq+
+                  pGD69A-1_6  94 DQLDEVLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQM 176
+                                 *********************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B 178 sglsgdgadlvnkafa.gq..qpvlalgplttesekseqkgfanlliglfgavrnplahapktnwpmseqdaldiltlvslih 257
+                                 sglsgdga l++ a++ g+   pv+a+ +l++++++ eq gfanl+ gl g  rnp+ah p+    +++ + l++ t +sl+h
+                  pGD69A-1_6 177 SGLSGDGAPLIDAALSlGKsgAPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVH 259
+                                 **************974442269************************************************************ PP
+
+  PD-Lambda-3__PD-Lambda-3_B 258 rkldgaq 264
+                                 r+ld+a+
+                  pGD69A-1_6 260 RRLDVAT 266
+                                 ****987 PP
+
+>> pGD69B-1_6  # 7165 # 7986 # -1 # ID=1_6;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  235.6   0.0     1e-72     3e-71      12     264 ..      11     266 ..       2     271 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 235.6 bits;  conditional E-value: 1e-72
+  PD-Lambda-3__PD-Lambda-3_B  12 leaacrvladterglsgtqierllqeievadtspgmtkwkrlfnalagaqnqyqvgnhlilfinramnpvnyardaavfawrr 94 
+                                 l    +vladt  gl+g +i +ll  +++ d+  g+tkwkrl +a++  qn     + +i fi  amnp ny   ++ f+ r+
+                  pGD69B-1_6  11 LTGVAQVLADTHGGLTGYEIGQLLGRLDMDDPGAGLTKWKRLEEAFVRRQNTDGHPQRIITFITHAMNPANYIGRPELFTLRQ 93 
+                                 667889***************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B  95 delnvvlafsgfyvredgkvakadkattldaararagrlkaalesravhaevlnycraelldenyfhavfeatkgvaerirql 177
+                                 d+l+ vl+f g+ v + gkv +  +++tld a   a  l+a l  r  h evl+yc +ell++n fha +eatk v er+rq+
+                  pGD69B-1_6  94 DQLDEVLTFVGLRVEDTGKVHRGPRSATLDEASRNATSLRAELRRRDTHGEVLRYCTVELLKKNNFHASLEATKSVFERVRQM 176
+                                 *********************************************************************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B 178 sglsgdgadlvnkafa.gq..qpvlalgplttesekseqkgfanlliglfgavrnplahapktnwpmseqdaldiltlvslih 257
+                                 sglsgdga l++ a++ g+   pv+a+ +l++++++ eq gfanl+ gl g  rnp+ah p+    +++ + l++ t +sl+h
+                  pGD69B-1_6 177 SGLSGDGAPLIDAALSlGKsgAPVIAINNLASQTDRDEQTGFANLIKGLAGMFRNPVAHDPRALRAVTDTQLLELATALSLVH 259
+                                 **************974442269************************************************************ PP
+
+  PD-Lambda-3__PD-Lambda-3_B 258 rkldgaq 264
+                                 r+ld+a+
+                  pGD69B-1_6 260 RRLDVAT 266
+                                 ****987 PP
+
+>> GD281A_31_6  # 6853 # 7242 # -1 # ID=1_6;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.597
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  117.3   0.0   1.3e-36   3.8e-35     147     264 ..       2     122 ..       1     127 [. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 117.3 bits;  conditional E-value: 1.3e-36
+  PD-Lambda-3__PD-Lambda-3_B 147 lnycraelldenyfhavfeatkgvaerirqlsglsgdgadlvnkafa.gq..qpvlalgplttesekseqkgfanlliglfga 226
+                                 l+yc +ell++n fha +eatk v er+rq+sglsgdga l++ a++ g+   pv+a+ +l++++++ eq gfanl+ gl g 
+                 GD281A_31_6   2 LRYCTVELLKKNNFHASLEATKSVFERVRQMSGLSGDGAPLIDAALSlGKsgAPVIAINNLASQTDRDEQTGFANLIKGLAGM 84 
+                                 89*******************************************974442269***************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B 227 vrnplahapktnwpmseqdaldiltlvslihrkldgaq 264
+                                  rnp+ah p+    +++ + l++ t +sl+hr+ld+a+
+                 GD281A_31_6  85 FRNPVAHDPRALRAVTDTQLLELATALSLVHRRLDVAT 122
+                                 ***********************************987 PP
+
+>> GD281B_32_6  # 6853 # 7242 # -1 # ID=1_6;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.597
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  117.3   0.0   1.3e-36   3.8e-35     147     264 ..       2     122 ..       1     127 [. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 117.3 bits;  conditional E-value: 1.3e-36
+  PD-Lambda-3__PD-Lambda-3_B 147 lnycraelldenyfhavfeatkgvaerirqlsglsgdgadlvnkafa.gq..qpvlalgplttesekseqkgfanlliglfga 226
+                                 l+yc +ell++n fha +eatk v er+rq+sglsgdga l++ a++ g+   pv+a+ +l++++++ eq gfanl+ gl g 
+                 GD281B_32_6   2 LRYCTVELLKKNNFHASLEATKSVFERVRQMSGLSGDGAPLIDAALSlGKsgAPVIAINNLASQTDRDEQTGFANLIKGLAGM 84 
+                                 89*******************************************974442269***************************** PP
+
+  PD-Lambda-3__PD-Lambda-3_B 227 vrnplahapktnwpmseqdaldiltlvslihrkldgaq 264
+                                  rnp+ah p+    +++ + l++ t +sl+hr+ld+a+
+                 GD281B_32_6  85 FRNPVAHDPRALRAVTDTQLLELATALSLVHRRLDVAT 122
+                                 ***********************************987 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (270 nodes)
+Target sequences:                       1019  (236273 residues searched)
+Passed MSV filter:                        70  (0.0686948); expected 20.4 (0.02)
+Passed bias filter:                       35  (0.0343474); expected 20.4 (0.02)
+Passed Vit filter:                        35  (0.0343474); expected 1.0 (0.001)
+Passed Fwd filter:                        35  (0.0343474); expected 0.0 (1e-05)
+Initial search space (Z):               1019  [actual number of targets]
+Domain search space  (domZ):              35  [number of targets reported over threshold]
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
+# Mc/sec: 2948.79
+//
+[ok]

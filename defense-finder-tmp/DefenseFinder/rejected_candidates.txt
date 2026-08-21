@@ -1,0 +1,4 @@
+# macsyfinder 2.1.4 
+# models : defense-finder-models-3.1.0
+# /opt/miniconda3/envs/defensefinder/bin/defense-finder run --preserve-raw pB_type_nucleotide.fasta
+# No Rejected candidates

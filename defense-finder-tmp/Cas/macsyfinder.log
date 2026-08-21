@@ -1,0 +1,619 @@
+INFO     : Macsyfinder 2.1.4 
+using:
+- Python 3.13.5 | packaged by conda-forge | (main, Jun 16 2025, 08:24:05) [Clang 18.1.8 ]
+- NetworkX 3.5
+- Pandas 2.2.3
+
+MacsyFinder is distributed under the terms of the GNU General Public License (GPLv3).
+See the COPYING file for details.
+
+If you use this software please cite:
+Néron, Bertrand; Denise, Rémi; Coluzzi, Charles; Touchon, Marie; Rocha, Eduardo P.C.; Abby, Sophie S.
+MacSyFinder v2: Improved modelling and search engine to identify molecular systems in genomes.
+Peer Community Journal, Volume 3 (2023), article no. e28. doi : 10.24072/pcjournal.250.
+https://peercommunityjournal.org/articles/10.24072/pcjournal.250/
+and don't forget to cite models used:
+macsydata cite <model>
+
+INFO     : command used: /opt/miniconda3/envs/defensefinder/bin/defense-finder run --preserve-raw pB_type_nucleotide.fasta
+INFO     : 
+models used: CasFinder-3.1.0
+INFO     : 
+{f' Searching systems ':#^70}
+INFO     : Models Parsing
+INFO     : MacSyFinder's results will be stored in working_dir/Users/CAM920/Desktop/mab-plasmid-typing/defense-finder-tmp/Cas
+INFO     : Analysis launched on /Users/CAM920/Desktop/mab-plasmid-typing/pB_type_nucleotide.prt_defensefinder.prt for model(s):
+INFO     : 	- CasFinder/CAS_Class2-Subtype-VI-X
+INFO     : 	- CasFinder/CAS_Class2-Subtype-V-I
+INFO     : 	- CasFinder/CAS_Class2-Subtype-V-H
+INFO     : 	- CasFinder/CAS_Class2-Subtype-VI-Y
+INFO     : 	- CasFinder/CAS_Class2-Subtype-V-K
+INFO     : 	- CasFinder/CAS_Class2-Subtype-II-A
+INFO     : 	- CasFinder/CAS_Class2-Subtype-II-B
+INFO     : 	- CasFinder/CAS_Class2-Subtype-II-C
+INFO     : 	- CasFinder/CAS_Class1-Subtype-I-C
+INFO     : 	- CasFinder/CAS_Class1-Subtype-I-B
+INFO     : 	- CasFinder/CAS_Class1-Type-IV
+INFO     : 	- CasFinder/CAS_Class1-Subtype-I-A
+INFO     : 	- CasFinder/CAS_Class1-Subtype-I-E
+INFO     : 	- CasFinder/CAS_Class1-Subtype-I-D
+INFO     : 	- CasFinder/CAS_Class1-Subtype-I-F
+INFO     : 	- CasFinder/CAS_Class1-Subtype-I-G
+INFO     : 	- CasFinder/CAS_Class1-Subtype-III-D
+INFO     : 	- CasFinder/CAS_Class1-Subtype-III-E
+INFO     : 	- CasFinder/CAS_Class1-Subtype-III-F
+INFO     : 	- CasFinder/CAS_Class1-Subtype-III-B
+INFO     : 	- CasFinder/CAS_Class1-Type-III
+INFO     : 	- CasFinder/CAS_Class1-Subtype-III-C
+INFO     : 	- CasFinder/CAS_Class2-Type-VI
+INFO     : 	- CasFinder/CAS_Class1-Subtype-III-A
+INFO     : 	- CasFinder/CAS_Cluster
+INFO     : 	- CasFinder/CAS_Class1-Subtype-IV-A
+INFO     : 	- CasFinder/CAS_Class2-Subtype-V-A
+INFO     : 	- CasFinder/CAS_Class2-Subtype-V-C
+INFO     : 	- CasFinder/CAS_Class1-Subtype-IV-C
+INFO     : 	- CasFinder/CAS_Class1-Subtype-IV-B
+INFO     : 	- CasFinder/CAS_Class1-Type-I
+INFO     : 	- CasFinder/CAS_Class2-Subtype-V-B
+INFO     : 	- CasFinder/CAS_Class2-Subtype-VI-D
+INFO     : 	- CasFinder/CAS_Class2-Type-II
+INFO     : 	- CasFinder/CAS_Class2-Subtype-V-F
+INFO     : 	- CasFinder/CAS_Class2-Subtype-V-G
+INFO     : 	- CasFinder/CAS_Class2-Subtype-VI-A
+INFO     : 	- CasFinder/CAS_Class2-Subtype-VI-C
+INFO     : 	- CasFinder/CAS_Class2-Subtype-V-E
+INFO     : 	- CasFinder/CAS_Class1-Subtype-IV-E
+INFO     : 	- CasFinder/CAS_Class1-Subtype-IV-D
+INFO     : 	- CasFinder/CAS_Class2-Subtype-V-D
+INFO     : 	- CasFinder/CAS_Class2-Type-V
+INFO     : 	- CasFinder/CAS_Class2-Subtype-VI-B
+INFO     : search gene cas8b12_I-B_1
+INFO     : search gene cas8b1_I-B_2
+INFO     : search gene cas8b2_I-B_1
+INFO     : search gene corA_III-B_III-D_1
+INFO     : search gene csf3gr5_IV-A_1
+INFO     : search gene csx19_III-D_13
+INFO     : search gene cmr5gr11_III-B_15
+INFO     : search gene cas4_I-D_1
+INFO     : search gene cas10_III-B_8
+INFO     : search gene csx19_III-D_10
+INFO     : search gene cas8b3_I-B_3
+INFO     : search gene cysH_IV-B_1
+INFO     : search gene cas7_I-E_2
+INFO     : search gene HTH_III_1
+INFO     : search gene csf3gr5_IV-A_2
+INFO     : search gene cas8b1_I-B_4
+INFO     : search gene cas6_I_II_III_IV_V_VI_13
+INFO     : search gene cas1_I-F_1
+INFO     : search gene csf3-csf1_IV-E_1
+WARNING  : GA bit thresholds unavailable on profile csf3-csf1_IV-E_1. Switch to e-value threshold (-E 0.100000)
+INFO     : search gene csm6_III_5
+INFO     : search gene csm4gr5_III-A_3
+INFO     : search gene cas11d_I-D_1
+INFO     : search gene cas12e_V-E_1
+INFO     : search gene csx20_I_III_1
+INFO     : search gene csx26_III_1
+INFO     : search gene cas7_I-C_13
+INFO     : search gene cas5_I-C_5
+INFO     : search gene csx28_VI-B_1
+INFO     : search gene cas8a2_I-A_4
+INFO     : search gene cas7_I-A_1
+INFO     : search gene csf4_IV-E_1
+WARNING  : GA bit thresholds unavailable on profile csf4_IV-E_1. Switch to e-value threshold (-E 0.100000)
+INFO     : search gene csm2gr11_III-D_4
+INFO     : search gene cas8b1_I-B_8
+INFO     : search gene csx19_III-D_15
+INFO     : search gene cas6_III_1
+INFO     : search gene cas8c_I-C_3
+INFO     : search gene cas12i_V-I_1
+INFO     : search gene cas8f_I-F_2
+INFO     : search gene cas6_IV-D_1
+INFO     : search gene cas8f_I-F_8
+WARNING  : GA bit thresholds unavailable on profile cas6_IV-D_1. Switch to e-value threshold (-E 0.100000)
+INFO     : search gene cas8b2_I-B_9
+INFO     : search gene PEPT_D_III-A_1
+INFO     : search gene cas8b2_I-B_8
+INFO     : search gene cmr5gr11_III-B_1
+INFO     : search gene cas9_II-B_3
+INFO     : search gene cas10_III-A_2
+INFO     : search gene csx10gr5_III-D_4
+INFO     : search gene cas8b8_I-B_1
+INFO     : search gene cas6_III-D_4
+INFO     : search gene csf2gr7_IV-B_1
+INFO     : search gene cas6_IV-D_2
+WARNING  : GA bit thresholds unavailable on profile cas6_IV-D_2. Switch to e-value threshold (-E 0.100000)
+INFO     : search gene csf4_IV-A1_2
+WARNING  : GA bit thresholds unavailable on profile csf4_IV-A1_2. Switch to e-value threshold (-E 0.100000)
+INFO     : search gene TPR_III-A_2
+INFO     : search gene tm_HEPN_VI-B_1
+INFO     : search gene csx1_III_14
+INFO     : search gene csm6_III_4
+INFO     : search gene cse2gr11_I-E_5
+INFO     : search gene cmr7_III-B_1
+INFO     : search gene cmr1gr7_III-B_III-C_2
+INFO     : search gene cas8a3_I-A_4
+INFO     : search gene cas10_III-D_2
+INFO     : search gene cas4_I_II_III_IV_V_VI_7
+INFO     : search gene HTH_I-D_2
+INFO     : search gene cas6_IV-E_1
+WARNING  : GA bit thresholds unavailable on profile cas6_IV-E_1. Switch to e-value threshold (-E 0.100000)
+INFO     : search gene cas8a3_I-A_1
+INFO     : search gene PD_DExK_I_II_III_IV_V_VI_5
+INFO     : search gene csx19_III-D_6
+INFO     : search gene cmr3gr5_III-B_III-C_5
+INFO     : search gene cas8b11_I-B_1
+INFO     : search gene cas5_I-E_3
+INFO     : search gene cas10d_I-D_3
+INFO     : search gene cas1_I_II_III_IV_V_VI_8
+INFO     : search gene cas12c_V-C_1
+INFO     : search gene csn2_II-A_5
+INFO     : search gene csx24_III-D_1
+INFO     : search gene cas2_I_II_III_IV_V_VI_8
+INFO     : search gene cas3d_I-D_2
+INFO     : search gene cas6f_I_II_III_IV_V_VI_2
+INFO     : search gene csx19_III-D_18
+INFO     : search gene WYL_I_II_III_IV_V_VI_4
+INFO     : search gene cas13b_VI-B_2
+INFO     : search gene cas7_I_15
+INFO     : search gene cas10d_I-D_8
+INFO     : search gene cas9_II-A_II-B_II-C_1
+INFO     : search gene cas8b1_I-B_1
+INFO     : search gene csn2_II-A_6
+INFO     : search gene cas8b13_I-B_1
+INFO     : search gene DEDDh_I_II_III_IV_V_VI_1
+INFO     : search gene cas10d_I-D_4
+INFO     : search gene cas11b_I-B_1
+INFO     : search gene csc1gr5_I-D_1
+INFO     : search gene cas5_I-B_1
+INFO     : search gene cmr5gr11_III-B_2
+INFO     : search gene cas7_I-B_14
+INFO     : search gene csx27_VI-B_1
+INFO     : search gene cmr3gr5_III-B_III-C_2
+INFO     : search gene csf1gr8_IV-B_1
+INFO     : search gene cas3HD_I-E_4
+INFO     : search gene csa5gr11_I-A_6
+INFO     : search gene cas3_I-D_4
+INFO     : search gene cas8a1_I-A_4
+INFO     : search gene csf4_IV-A1_1
+WARNING  : GA bit thresholds unavailable on profile csf4_IV-A1_1. Switch to e-value threshold (-E 0.100000)
+INFO     : search gene cas12d_V-D_1
+INFO     : search gene cas5_I-B_6
+INFO     : search gene csx1_III_20
+INFO     : search gene csn2_II-A_3
+INFO     : search gene cas8f_I-F_6
+INFO     : search gene csf1gr8_IV-A_2
+INFO     : search gene cmr5gr11_III-B_4
+INFO     : search gene cas11_III-D_1
+INFO     : search gene PD_DExK_I_II_III_IV_V_VI_1
+INFO     : search gene cas12f1_V-F_3
+INFO     : search gene csn2_II-A_14
+INFO     : search gene cas8b9_I-B_1
+INFO     : search gene csm2gr11_III-D_5
+INFO     : search gene cmr5gr11_III-B_5
+INFO     : search gene cas12a_V-A_1
+INFO     : search gene cas9_II-A_1
+INFO     : search gene csx19_III-D_11
+INFO     : search gene cas6_I_II_III_IV_V_VI_11
+INFO     : search gene csm2gr11_III-A_3
+INFO     : search gene cas8e_I-E_4
+INFO     : search gene csm3gr7_III-A_III-D_2
+INFO     : search gene cas8b1_I-B_11
+INFO     : search gene csx1_III_2
+INFO     : search gene cmr5gr11_III-B_7
+INFO     : search gene cas6_I_II_III_IV_V_VI_22
+INFO     : search gene cas2_I-E_1
+INFO     : search gene csc1gr5_I-D_4
+INFO     : search gene cas8b1_I-B_12
+INFO     : search gene casR_III-D_6
+INFO     : search gene cmr3gr5_III-B_III-C_6
+INFO     : search gene cas5f_I-F_3
+INFO     : search gene cas5u_I-G_1
+INFO     : search gene cas10_III-C_3
+INFO     : search gene cas3d_I-D_1
+INFO     : search gene csx19_III-D_2
+INFO     : search gene cas7_I-B_10
+INFO     : search gene cmr1gr7_III-C_1
+INFO     : search gene cas10_III-D_1
+INFO     : search gene csm3gr7_III-D_2
+INFO     : search gene csx1_III_12
+INFO     : search gene cas8a1_I-A_5
+INFO     : search gene cmr3gr5_III-B_III-C_3
+INFO     : search gene csc1gr5_I-D_3
+INFO     : search gene cas7_I-A_2
+INFO     : search gene cas7_I-E_16
+INFO     : search gene csn2_II-A_4
+INFO     : search gene cas8e_I-E_1
+INFO     : search gene recD_IV-D_1
+WARNING  : GA bit thresholds unavailable on profile recD_IV-D_1. Switch to e-value threshold (-E 0.100000)
+INFO     : search gene cas1_I_II_III_IV_V_VI_7
+INFO     : search gene csa5gr11_I-A_10
+INFO     : search gene cas3_I-G_3
+INFO     : search gene csm2gr11_III-A_11
+INFO     : search gene cas12f7_V-F_1
+INFO     : search gene csx16_III-A_1
+INFO     : search gene cas8b2_I-B_2
+INFO     : search gene RT_I_II_III_IV_V_VI_1
+INFO     : search gene cas11_IV-C_2
+INFO     : search gene cas12h_V-H_1
+INFO     : search gene cas8b5_I-B_1
+INFO     : search gene csf3gr5_IV-C_4
+WARNING  : GA bit thresholds unavailable on profile cas11_IV-C_2. Switch to e-value threshold (-E 0.100000)
+INFO     : search gene cas8a2_I-A_2
+INFO     : search gene SSgr11_III-F_2
+INFO     : search gene cas8u2_I-G_3
+INFO     : search gene csm3gr7_III_IV
+INFO     : search gene cas2_I_II_III_IV_V_VI_10
+INFO     : search gene cas12b1_V-B_1
+INFO     : search gene cas7f_I-F_2
+INFO     : search gene cas8f_I-F_3
+INFO     : search gene SSIVC_IV-C_1
+INFO     : search gene csx1_III_15
+INFO     : search gene cas10_III-D_3
+INFO     : search gene cmr3gr5_III-B_III-C_1
+INFO     : search gene csm2gr11_III-A_13
+INFO     : search gene cas6_I_II_III_IV_V_VI_12
+INFO     : search gene cas8c_I-C_2
+INFO     : search gene csa5gr11_I-A_8
+INFO     : search gene casR_III-B_9
+INFO     : search gene cas6_III-D_5
+INFO     : search gene csm6_III_1
+INFO     : search gene cas10_III_6
+INFO     : search gene csm4gr5_III-A_1
+INFO     : search gene csm2gr11_III-A_15
+INFO     : search gene csx1_III_13
+INFO     : search gene cas8b2_I-B_3
+INFO     : search gene cas8a3_I-A_3
+INFO     : search gene cas8a6_I-A_1
+INFO     : search gene csf2gr7_IV_1
+INFO     : search gene cas1_III_1
+INFO     : search gene cas2_I_II_III_IV_V_VI_4
+INFO     : search gene csx1_III_5
+INFO     : search gene csx21_III-D_1
+INFO     : search gene csm3gr7_III_1
+INFO     : search gene cas12f2_V-F_1
+INFO     : search gene cas2_I_II_III_IV_V_VI_3
+INFO     : search gene csn2_II-A_7
+INFO     : search gene cas8f_I-F_7
+INFO     : search gene cas10d_I-D_5
+INFO     : search gene csf3gr5_IV-B_1
+INFO     : search gene cas8a1_I-A_3
+INFO     : search gene csx19_III-D_5
+INFO     : search gene csm6_III_7
+INFO     : search gene cas8u2_I-G_1
+INFO     : search gene cas5_I-C_11
+INFO     : search gene csx18_III_1
+INFO     : search gene csf1gr8_IV-A_3
+INFO     : search gene cas8c_I-C_4
+INFO     : search gene cas10d_I-D_2
+INFO     : search gene csx19_III-D_21
+INFO     : search gene cas2_I_II_III_IV_V_VI_6
+INFO     : search gene casR_III-D_5
+INFO     : search gene csb3_I-G_1
+INFO     : search gene cas6e_I_II_III_IV_V_VI_3
+INFO     : search gene csm4gr5_III-A_2
+INFO     : search gene cas7_I-F_11
+INFO     : search gene csa5gr11_I-A_9
+INFO     : search gene cas8b4_I-B_1
+INFO     : search gene csm5gr7_III-A_2
+INFO     : search gene cas12a_V-A_2
+INFO     : search gene cas9_II-C_4
+INFO     : search gene cas10_III-A_1
+INFO     : search gene csn2_II-A_8
+INFO     : search gene cas1_I_II_III_IV_V_VI_10
+INFO     : search gene cas8b1_I-B_5
+INFO     : search gene cas11_IV-C_3
+WARNING  : GA bit thresholds unavailable on profile cas11_IV-C_3. Switch to e-value threshold (-E 0.100000)
+INFO     : search gene cas8b1_I-B_13
+INFO     : search gene WYL_I_II_III_IV_V_VI_3
+INFO     : search gene cmr1gr7_III-B_4
+INFO     : search gene TPR_III-A_4
+INFO     : search gene cas7_I-B_8
+INFO     : search gene csx1_III_10
+INFO     : search gene cas8c_I-C_1
+INFO     : search gene cas3f_I-F_1
+INFO     : search gene cas12f4_V-F_1
+INFO     : search gene cas12f3_V-F_1
+INFO     : search gene cas10d_I-D_9
+INFO     : search gene cas5_I-B_22
+INFO     : search gene cmr5gr11_III-C_14
+INFO     : search gene cas12g_V-G_1
+INFO     : search gene cas5_I-B_20
+INFO     : search gene csn2_II-A_1
+INFO     : search gene cas4_I-A_1
+INFO     : search gene cas7_I-G_4
+INFO     : search gene cas8a2_I-A_6
+INFO     : search gene cas2_I_II_III_IV_V_VI_11
+INFO     : search gene cas8b1_I-B_14
+INFO     : search gene cmr6gr7_III-C_1
+INFO     : search gene cmr5gr11_III-B_3
+INFO     : search gene cas12f1_V-F_2
+INFO     : search gene cas5_III-F_1
+INFO     : search gene cas12b2_V-B_1
+INFO     : search gene cas11b_I-B_3
+INFO     : search gene cas3HD_I_2
+INFO     : search gene csx1_III_19
+INFO     : search gene cas13c_VI-C_1
+INFO     : search gene cas6f_I_II_III_IV_V_VI_3
+INFO     : search gene cmr5gr11_III-B_8
+INFO     : search gene cas8f_I-F_5
+INFO     : search gene cmr5gr11_III-B_12
+INFO     : search gene cas6e_I_II_III_IV_V_VI_1
+INFO     : search gene cas5_I-A_4
+INFO     : search gene corA_III-D_3
+INFO     : search gene csm2gr11_III-D_6
+INFO     : search gene HEAT_CxxC_PDDEXK_I-C_1
+INFO     : search gene cas8b1_I-B_9
+INFO     : search gene casR_I_1
+INFO     : search gene csc1gr5_I-D_2
+INFO     : search gene csm3gr7_III-D_4
+INFO     : search gene cas8b2_I-B_7
+INFO     : search gene csx19_III-D_1
+INFO     : search gene csm2gr11_III-D_8
+INFO     : search gene cas12b2_V-B_2
+INFO     : search gene cas1_I_II_III_IV_V_VI_2
+INFO     : search gene cas6f_I_II_III_IV_V_VI_1
+INFO     : search gene cas5_I-E_13
+INFO     : search gene csx1_III_17
+INFO     : search gene cas6_I-B_III_1
+INFO     : search gene corA_III-B_2
+INFO     : search gene csm4gr5_III-A_5
+INFO     : search gene tm_4_VI-B_1
+INFO     : search gene cas8u2_I-G_2
+INFO     : search gene cas4_I_II_III_IV_V_VI_4
+INFO     : search gene cas8b10_I-B_1
+INFO     : search gene cas6_I_II_III_IV_V_VI_21
+INFO     : search gene csx1_III_8
+INFO     : search gene csm3gr7_III-D_3
+INFO     : search gene cas12f6_V-F_1
+INFO     : search gene cmr3gr5_III-B_III-C_4
+INFO     : search gene casR_III-D_8
+INFO     : search gene csm2gr11_III-A_12
+INFO     : search gene cas7f_I-F_1
+INFO     : search gene csn2_II-A_9
+INFO     : search gene cas12e_V-E_2
+INFO     : search gene cas8a1_I-A_2
+INFO     : search gene cas5_I-A_15
+INFO     : search gene csx19_III-D_19
+INFO     : search gene cas8e_I-E_3
+INFO     : search gene csf1gr8_IV-A_6
+INFO     : search gene csm5gr7_III-A_1
+INFO     : search gene cas8b2_I-B_4
+INFO     : search gene cmr1gr7_III-B_2
+INFO     : search gene csc2gr7_I-D_1
+INFO     : search gene corA_III-D_5
+INFO     : search gene csn2_II-A_13
+INFO     : search gene PrimPol_I_II_III_IV_V_VI_1
+INFO     : search gene cmr3gr5_III-B_III-C_8
+INFO     : search gene cas12_x2_V-F_1
+INFO     : search gene cmr5gr11_III-B_9
+INFO     : search gene cas7b_I-B_I-C_2
+INFO     : search gene cas12f2_V-F_3
+INFO     : search gene cas8a3_I-A_2
+INFO     : search gene Toprim_III-C_1
+INFO     : search gene cas10d_I-D_7
+INFO     : search gene cas12c_V-C_2
+INFO     : search gene WYL_I_II_III_IV_V_VI_1
+INFO     : search gene csb2gr5_I-G_2
+INFO     : search gene csx1_III_11
+INFO     : search gene csb1gr7_I-G_1
+INFO     : search gene cmr4gr7_III-B_III-C_1
+INFO     : search gene cas8u1_I-G_1
+INFO     : search gene cas8a8_I-A_1
+INFO     : search gene cas8b1_I-B_3
+INFO     : search gene csx21_III-D_2
+INFO     : search gene cas7_I-B_6
+INFO     : search gene csx19_III-D_9
+INFO     : search gene csn2_II-A_10
+INFO     : search gene cas8b3_I-B_1
+INFO     : search gene cmr1gr7_III-B_III-C_3
+INFO     : search gene cas5_I-B_17
+INFO     : search gene csx1_III_9
+INFO     : search gene TniQ_I-F_1
+INFO     : search gene cas10_III-F_1
+INFO     : search gene cas5_I-B_10
+INFO     : search gene csm2gr11_III-D_10
+INFO     : search gene cse2gr11_I-E_1
+INFO     : search gene cas8a4_I-A_1
+INFO     : search gene cmr6gr7_III-B_3
+INFO     : search gene csx22_III-A_1
+INFO     : search gene cse2gr11_I-E_7
+INFO     : search gene cas13b_VI-B_1
+INFO     : search gene cas3_I_7
+INFO     : search gene cas5_I-B_2
+INFO     : search gene csx19_III-D_17
+INFO     : search gene cas4_I_II_III_IV_V_VI_1
+INFO     : search gene cas5_I_9
+INFO     : search gene csm3gr7_III-A_2
+INFO     : search gene cas1_I_II_III_IV_V_VI_1
+INFO     : search gene cas2_I-E_2
+INFO     : search gene csf4_IV-A_1
+WARNING  : GA bit thresholds unavailable on profile csf4_IV-A_1. Switch to e-value threshold (-E 0.100000)
+INFO     : search gene RT_I-E_1
+INFO     : search gene csx25_III-D_1
+INFO     : search gene PD_DExK_I_II_III_IV_V_VI_4
+INFO     : search gene csn2_II-A_11
+INFO     : search gene csm3gr7_III-A_1
+INFO     : search gene csm3gr7_III-D_6
+INFO     : search gene cas10d_I-D_1
+INFO     : search gene cas8a2_I-A_1
+INFO     : search gene cas8e_I-E_5
+INFO     : search gene cas13a_VI-A_1
+INFO     : search gene csb2gr5_I-G_1
+INFO     : search gene cmr6gr7_III-B_1
+INFO     : search gene cas8b1_I-B_10
+INFO     : search gene cas10-like_IV-C_4
+INFO     : search gene cas5f_I-F_2
+WARNING  : GA bit thresholds unavailable on profile cas10-like_IV-C_4. Switch to e-value threshold (-E 0.100000)
+INFO     : search gene casR_III_1
+INFO     : search gene csx19_III-D_16
+INFO     : search gene cas12_x1_V-F_1
+INFO     : search gene cas7_I-B_1
+INFO     : search gene cse2gr11_I-E_4
+INFO     : search gene csx1_III_21
+INFO     : search gene csx21_III-D_3
+INFO     : search gene csf5gr6_IV-A_1
+INFO     : search gene csx23_III-D_III-A_1
+INFO     : search gene csx20_I_III_3
+INFO     : search gene cas4_I_II_III_IV_V_VI_6
+INFO     : search gene csx10gr5_III-D_2
+INFO     : search gene LSIVC_IV-C_1
+INFO     : search gene cas8u1_I-G_2
+INFO     : search gene csx3_I_III_4
+INFO     : search gene cas10_III-B_12
+INFO     : search gene csm6_III_2
+INFO     : search gene csa5gr11_I-A_4
+INFO     : search gene cas1_I_II_III_IV_V_VI_6
+INFO     : search gene cas5f_I-F_1
+INFO     : search gene cas8b2_I-B_6
+INFO     : search gene cas5_I-E_2
+INFO     : search gene cas10_III_1
+INFO     : search gene csx16_III_1
+INFO     : search gene gRAMP_III-E_1
+WARNING  : GA bit thresholds unavailable on profile gRAMP_III-E_1. Switch to e-value threshold (-E 0.100000)
+INFO     : search gene csx3_I_III_3
+INFO     : search gene csx3_I_III_2
+INFO     : search gene cas7_I-G_9
+INFO     : search gene cas3_I_2
+INFO     : search gene csa5gr11_I-A_12
+INFO     : search gene cas6_I_II_III_IV_V_VI_16
+INFO     : search gene cas8a2_I-A_3
+INFO     : search gene cmr5gr11_III-B_13
+INFO     : search gene cas4_V_1
+INFO     : search gene cas12f2_V-F_2
+INFO     : search gene cas8b1_I-B_7
+INFO     : search gene csm3gr7_III-D_5
+INFO     : search gene cas8b7_I-B_1
+INFO     : search gene cas8a9_I-A_1
+INFO     : search gene cas3_I_5
+INFO     : search gene csf1gr8_IV_1
+INFO     : search gene cas9_II-B_2
+INFO     : search gene csf1gr8_IV-A_5
+INFO     : search gene cas1_I_II_III_IV_V_VI_5
+INFO     : search gene casR_I_2
+INFO     : search gene csx1_III_4
+INFO     : search gene csx19_III-D_8
+INFO     : search gene csa5gr11_I-A_7
+INFO     : search gene cas5f_I-F_4
+INFO     : search gene csx3_I_III_1
+INFO     : search gene cas10-like_IV-C_3
+WARNING  : GA bit thresholds unavailable on profile cas10-like_IV-C_3. Switch to e-value threshold (-E 0.100000)
+INFO     : search gene csx10gr5_III-D_1
+INFO     : search gene cas8e_I-E_2
+INFO     : search gene cas11b_I-B_2
+INFO     : search gene cmr1gr7_III-B_5
+INFO     : search gene csx19_III-D_4
+INFO     : search gene SSgr11_III-F_1
+INFO     : search gene casR_III-D_10
+INFO     : search gene csm2gr11_III-A_1
+INFO     : search gene csa5gr11_I-A_5
+INFO     : search gene cas6_I_II_III_IV_V_VI_19
+INFO     : search gene csm5gr7_III-A_4
+INFO     : search gene csm3gr7_III-D_7
+INFO     : search gene cas8b6_I-B_1
+INFO     : search gene DHH_CorA_III-B_III-D_1
+INFO     : search gene cas3_I_6
+INFO     : search gene cmr6gr7_III-B_2
+INFO     : search gene cas5_I-A_12
+INFO     : search gene cas2_I_II_III_IV_V_VI_1
+INFO     : search gene cas10-like_IV-C_2
+WARNING  : GA bit thresholds unavailable on profile cas10-like_IV-C_2. Switch to e-value threshold (-E 0.100000)
+INFO     : search gene cmr1gr7_III-B_1
+INFO     : search gene cas10_III_7
+INFO     : search gene csm3gr7_III-A_III-D_10
+INFO     : search gene cmr1gr7_III-B_3
+INFO     : search gene csx15_I_III_1
+INFO     : search gene csm6_III_3
+INFO     : search gene cas2_I_II_III_IV_V_VI_5
+INFO     : search gene csm3gr7_III-D_1
+INFO     : search gene cas8a2_I-A_5
+INFO     : search gene cas9_II-A_II-B_II-C_3
+INFO     : search gene csm2gr11_III-D_9
+INFO     : search gene cas10-like_IV-C_1
+INFO     : search gene cas8f_I-F_4
+WARNING  : GA bit thresholds unavailable on profile cas10-like_IV-C_1. Switch to e-value threshold (-E 0.100000)
+INFO     : search gene cas8b2_I-B_5
+INFO     : search gene cse2gr11_I-E_6
+INFO     : search gene csm4gr5_III-D_2
+INFO     : search gene csa5gr11_I-A_3
+INFO     : search gene csx10gr5_III-D_3
+INFO     : search gene cas1_I-E_1
+INFO     : search gene csx19_III-D_7
+INFO     : search gene csm2gr11_III-D_7
+INFO     : search gene cas5_I-B_8
+INFO     : search gene cmr5gr11_III-B_18
+INFO     : search gene cas13x_VI-X_1
+WARNING  : GA bit thresholds unavailable on profile cas13x_VI-X_1. Switch to e-value threshold (-E 0.100000)
+INFO     : search gene cas4_I-A_2
+INFO     : search gene cas6_I_II_III_IV_V_VI_10
+INFO     : search gene cas8a7_I-A_1
+INFO     : search gene cas12a_V-A_4
+INFO     : search gene csx1_III_16
+INFO     : search gene cmr5gr11_III-B_16
+INFO     : search gene cas6_I-D_2
+INFO     : search gene csm6_III_8
+INFO     : search gene csx1_III_7
+INFO     : search gene cas7f_I-F_3
+INFO     : search gene csx20_I_III_2
+INFO     : search gene cmr5gr11_III-B_6
+INFO     : search gene csx1_III_3
+INFO     : search gene cas13y_VI-Y_1
+WARNING  : GA bit thresholds unavailable on profile cas13y_VI-Y_1. Switch to e-value threshold (-E 0.100000)
+INFO     : search gene cas5_I-A_1
+INFO     : search gene cmr4gr7_III-B_III-C_2
+INFO     : search gene cas13d_VI-D_1
+INFO     : search gene cas2_I_II_III_IV_V_VI_9
+INFO     : search gene cas5_I-B_19
+INFO     : search gene cas8a5_I-A_1
+INFO     : search gene cas5_I-B_14
+INFO     : search gene csx16_III_2
+INFO     : search gene cas6_I_II_III_IV_V_VI_14
+INFO     : search gene cas6e_I_II_III_IV_V_VI_2
+INFO     : search gene csx1_III_1
+INFO     : search gene cas3HD_I_1
+INFO     : search gene csm2gr11_III-A_2
+INFO     : search gene cas6_I_II_III_IV_V_VI_15
+INFO     : search gene cas11_IV-C_1
+INFO     : search gene cmr5gr11_III-C_11
+WARNING  : GA bit thresholds unavailable on profile cas11_IV-C_1. Switch to e-value threshold (-E 0.100000)
+INFO     : search gene csm2gr11_III-A_14
+INFO     : search gene csm6_III_6
+INFO     : search gene cas12a_V-A_3
+INFO     : search gene csf4gr11_IV-B_2
+INFO     : search gene csc1gr5_I-D_5
+INFO     : search gene WYL_I_II_III_IV_V_VI_2
+INFO     : search gene cas5a_I-A_1
+INFO     : search gene csx10gr5_III-D_5
+INFO     : search gene cmr3gr5_III-C_1
+INFO     : search gene csm5gr7_III-A_3
+INFO     : search gene cas2_I_II_III_IV_V_VI_13
+INFO     : search gene cas6_I_II_III_IV_V_VI_7
+INFO     : search gene csn2_II-A_12
+INFO     : search gene csx19_III-D_12
+INFO     : search gene cas12f1_V-F_1
+INFO     : search gene cse2gr11_I-E_2
+INFO     : search gene cas7_I-C_7
+INFO     : search gene csx19_III-D_14
+INFO     : search gene cas6_I_II_III_IV_V_VI_20
+INFO     : search gene csa5gr11_I-A_13
+INFO     : search gene cas5_I-B_7
+INFO     : search gene cas8a1_I-A_1
+INFO     : search gene cas6_I_II_III_IV_V_VI_17
+INFO     : search gene cmr5gr11_III-B_17
+INFO     : search gene cas5_I-F_16
+INFO     : search gene csf2gr7_IV-A_1
+INFO     : search gene cas3HD_I_3
+INFO     : search gene cas7b_I-B_1
+INFO     : search gene cas6_I-B_III_2
+INFO     : search gene cas12k_V-K_1
+INFO     : search gene csf4gr11_IV-B_4
+INFO     : search gene cas5u_I-G_2
+INFO     : search gene cse2gr11_I-E_8
+INFO     : search gene csa5gr11_I-A_11
+INFO     : search gene cse2gr11_I-E_3
+INFO     : search gene cas6_I-A_III-D_3
+INFO     : 
+{f' Computing best solutions ':#^70}
+INFO     : 
+################### Writing down results in 'Cas' ####################
+INFO     : No Systems found in this dataset.
+INFO     : END

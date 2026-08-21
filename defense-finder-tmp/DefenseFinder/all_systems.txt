@@ -1,0 +1,600 @@
+# macsyfinder 2.1.4 
+# models : defense-finder-models-3.1.0
+# /opt/miniconda3/envs/defensefinder/bin/defense-finder run --preserve-raw pB_type_nucleotide.fasta
+# Systems found:
+
+system id = GD105_22_VP1853_1
+model = defense-finder-models/DefenseFinder/VP1853/VP1853
+replicon = GD105_22
+clusters = [('GD105_22_6', 'VP1853__VP1853', 6)]
+occ = 1
+wholeness = 1.000
+loci nb = 1
+score = 1.000
+
+mandatory genes:
+	- VP1853__VP1853: 1 (VP1853__VP1853)
+
+accessory genes:
+
+neutral genes:
+
+============================================================
+system id = GD106_29_VP1853_2
+model = defense-finder-models/DefenseFinder/VP1853/VP1853
+replicon = GD106_29
+clusters = [('GD106_29_6', 'VP1853__VP1853', 35)]
+occ = 1
+wholeness = 1.000
+loci nb = 1
+score = 1.000
+
+mandatory genes:
+	- VP1853__VP1853: 1 (VP1853__VP1853)
+
+accessory genes:
+
+neutral genes:
+
+============================================================
+system id = GD108A_23_VP1853_3
+model = defense-finder-models/DefenseFinder/VP1853/VP1853
+replicon = GD108A_23
+clusters = [('GD108A_23_6', 'VP1853__VP1853', 64)]
+occ = 1
+wholeness = 1.000
+loci nb = 1
+score = 1.000
+
+mandatory genes:
+	- VP1853__VP1853: 1 (VP1853__VP1853)
+
+accessory genes:
+
+neutral genes:
+
+============================================================
+system id = GD108B_21_VP1853_4
+model = defense-finder-models/DefenseFinder/VP1853/VP1853
+replicon = GD108B_21
+clusters = [('GD108B_21_6', 'VP1853__VP1853', 93)]
+occ = 1
+wholeness = 1.000
+loci nb = 1
+score = 1.000
+
+mandatory genes:
+	- VP1853__VP1853: 1 (VP1853__VP1853)
+
+accessory genes:
+
+neutral genes:
+
+============================================================
+system id = GD177_20_VP1853_5
+model = defense-finder-models/DefenseFinder/VP1853/VP1853
+replicon = GD177_20
+clusters = [('GD177_20_6', 'VP1853__VP1853', 122)]
+occ = 1
+wholeness = 1.000
+loci nb = 1
+score = 1.000
+
+mandatory genes:
+	- VP1853__VP1853: 1 (VP1853__VP1853)
+
+accessory genes:
+
+neutral genes:
+
+============================================================
+system id = GD187_12_VP1853_6
+model = defense-finder-models/DefenseFinder/VP1853/VP1853
+replicon = GD187_12
+clusters = [('GD187_12_6', 'VP1853__VP1853', 151)]
+occ = 1
+wholeness = 1.000
+loci nb = 1
+score = 1.000
+
+mandatory genes:
+	- VP1853__VP1853: 1 (VP1853__VP1853)
+
+accessory genes:
+
+neutral genes:
+
+============================================================
+system id = GD18_29_VP1853_7
+model = defense-finder-models/DefenseFinder/VP1853/VP1853
+replicon = GD18_29
+clusters = [('GD18_29_6', 'VP1853__VP1853', 180)]
+occ = 1
+wholeness = 1.000
+loci nb = 1
+score = 1.000
+
+mandatory genes:
+	- VP1853__VP1853: 1 (VP1853__VP1853)
+
+accessory genes:
+
+neutral genes:
+
+============================================================
+system id = GD205_39_VP1853_8
+model = defense-finder-models/DefenseFinder/VP1853/VP1853
+replicon = GD205_39
+clusters = [('GD205_39_6', 'VP1853__VP1853', 209)]
+occ = 1
+wholeness = 1.000
+loci nb = 1
+score = 1.000
+
+mandatory genes:
+	- VP1853__VP1853: 1 (VP1853__VP1853)
+
+accessory genes:
+
+neutral genes:
+
+============================================================
+system id = GD210_9_VP1853_9
+model = defense-finder-models/DefenseFinder/VP1853/VP1853
+replicon = GD210_9
+clusters = [('GD210_9_6', 'VP1853__VP1853', 238)]
+occ = 1
+wholeness = 1.000
+loci nb = 1
+score = 1.000
+
+mandatory genes:
+	- VP1853__VP1853: 1 (VP1853__VP1853)
+
+accessory genes:
+
+neutral genes:
+
+============================================================
+system id = GD212_8_VP1853_10
+model = defense-finder-models/DefenseFinder/VP1853/VP1853
+replicon = GD212_8
+clusters = [('GD212_8_6', 'VP1853__VP1853', 267)]
+occ = 1
+wholeness = 1.000
+loci nb = 1
+score = 1.000
+
+mandatory genes:
+	- VP1853__VP1853: 1 (VP1853__VP1853)
+
+accessory genes:
+
+neutral genes:
+
+============================================================
+system id = GD231_12_VP1853_11
+model = defense-finder-models/DefenseFinder/VP1853/VP1853
+replicon = GD231_12
+clusters = [('GD231_12_6', 'VP1853__VP1853', 296)]
+occ = 1
+wholeness = 1.000
+loci nb = 1
+score = 1.000
+
+mandatory genes:
+	- VP1853__VP1853: 1 (VP1853__VP1853)
+
+accessory genes:
+
+neutral genes:
+
+============================================================
+system id = GD233A_15_VP1853_12
+model = defense-finder-models/DefenseFinder/VP1853/VP1853
+replicon = GD233A_15
+clusters = [('GD233A_15_6', 'VP1853__VP1853', 325)]
+occ = 1
+wholeness = 1.000
+loci nb = 1
+score = 1.000
+
+mandatory genes:
+	- VP1853__VP1853: 1 (VP1853__VP1853)
+
+accessory genes:
+
+neutral genes:
+
+============================================================
+system id = GD233B_16_VP1853_13
+model = defense-finder-models/DefenseFinder/VP1853/VP1853
+replicon = GD233B_16
+clusters = [('GD233B_16_6', 'VP1853__VP1853', 354)]
+occ = 1
+wholeness = 1.000
+loci nb = 1
+score = 1.000
+
+mandatory genes:
+	- VP1853__VP1853: 1 (VP1853__VP1853)
+
+accessory genes:
+
+neutral genes:
+
+============================================================
+system id = GD23_8_VP1853_14
+model = defense-finder-models/DefenseFinder/VP1853/VP1853
+replicon = GD23_8
+clusters = [('GD23_8_25', 'VP1853__VP1853', 402)]
+occ = 1
+wholeness = 1.000
+loci nb = 1
+score = 1.000
+
+mandatory genes:
+	- VP1853__VP1853: 1 (VP1853__VP1853)
+
+accessory genes:
+
+neutral genes:
+
+============================================================
+system id = GD255_28_VP1853_15
+model = defense-finder-models/DefenseFinder/VP1853/VP1853
+replicon = GD255_28
+clusters = [('GD255_28_6', 'VP1853__VP1853', 413)]
+occ = 1
+wholeness = 1.000
+loci nb = 1
+score = 1.000
+
+mandatory genes:
+	- VP1853__VP1853: 1 (VP1853__VP1853)
+
+accessory genes:
+
+neutral genes:
+
+============================================================
+system id = GD281A_31_VP1853_16
+model = defense-finder-models/DefenseFinder/VP1853/VP1853
+replicon = GD281A_31
+clusters = [('GD281A_31_6', 'VP1853__VP1853', 442)]
+occ = 1
+wholeness = 1.000
+loci nb = 1
+score = 1.000
+
+mandatory genes:
+	- VP1853__VP1853: 1 (VP1853__VP1853)
+
+accessory genes:
+
+neutral genes:
+
+============================================================
+system id = GD281B_32_VP1853_17
+model = defense-finder-models/DefenseFinder/VP1853/VP1853
+replicon = GD281B_32
+clusters = [('GD281B_32_6', 'VP1853__VP1853', 472)]
+occ = 1
+wholeness = 1.000
+loci nb = 1
+score = 1.000
+
+mandatory genes:
+	- VP1853__VP1853: 1 (VP1853__VP1853)
+
+accessory genes:
+
+neutral genes:
+
+============================================================
+system id = GD295A_12_VP1853_18
+model = defense-finder-models/DefenseFinder/VP1853/VP1853
+replicon = GD295A_12
+clusters = [('GD295A_12_6', 'VP1853__VP1853', 502)]
+occ = 1
+wholeness = 1.000
+loci nb = 1
+score = 1.000
+
+mandatory genes:
+	- VP1853__VP1853: 1 (VP1853__VP1853)
+
+accessory genes:
+
+neutral genes:
+
+============================================================
+system id = GD297_19_VP1853_19
+model = defense-finder-models/DefenseFinder/VP1853/VP1853
+replicon = GD297_19
+clusters = [('GD297_19_6', 'VP1853__VP1853', 531)]
+occ = 1
+wholeness = 1.000
+loci nb = 1
+score = 1.000
+
+mandatory genes:
+	- VP1853__VP1853: 1 (VP1853__VP1853)
+
+accessory genes:
+
+neutral genes:
+
+============================================================
+system id = GD305B_28_VP1853_20
+model = defense-finder-models/DefenseFinder/VP1853/VP1853
+replicon = GD305B_28
+clusters = [('GD305B_28_6', 'VP1853__VP1853', 560)]
+occ = 1
+wholeness = 1.000
+loci nb = 1
+score = 1.000
+
+mandatory genes:
+	- VP1853__VP1853: 1 (VP1853__VP1853)
+
+accessory genes:
+
+neutral genes:
+
+============================================================
+system id = GD340_32_VP1853_21
+model = defense-finder-models/DefenseFinder/VP1853/VP1853
+replicon = GD340_32
+clusters = [('GD340_32_6', 'VP1853__VP1853', 589)]
+occ = 1
+wholeness = 1.000
+loci nb = 1
+score = 1.000
+
+mandatory genes:
+	- VP1853__VP1853: 1 (VP1853__VP1853)
+
+accessory genes:
+
+neutral genes:
+
+============================================================
+system id = GD346_16_VP1853_22
+model = defense-finder-models/DefenseFinder/VP1853/VP1853
+replicon = GD346_16
+clusters = [('GD346_16_6', 'VP1853__VP1853', 618)]
+occ = 1
+wholeness = 1.000
+loci nb = 1
+score = 1.000
+
+mandatory genes:
+	- VP1853__VP1853: 1 (VP1853__VP1853)
+
+accessory genes:
+
+neutral genes:
+
+============================================================
+system id = GD347_1B_19_VP1853_23
+model = defense-finder-models/DefenseFinder/VP1853/VP1853
+replicon = GD347_1B_19
+clusters = [('GD347_1B_19_6', 'VP1853__VP1853', 647)]
+occ = 1
+wholeness = 1.000
+loci nb = 1
+score = 1.000
+
+mandatory genes:
+	- VP1853__VP1853: 1 (VP1853__VP1853)
+
+accessory genes:
+
+neutral genes:
+
+============================================================
+system id = GD365_18_VP1853_24
+model = defense-finder-models/DefenseFinder/VP1853/VP1853
+replicon = GD365_18
+clusters = [('GD365_18_6', 'VP1853__VP1853', 676)]
+occ = 1
+wholeness = 1.000
+loci nb = 1
+score = 1.000
+
+mandatory genes:
+	- VP1853__VP1853: 1 (VP1853__VP1853)
+
+accessory genes:
+
+neutral genes:
+
+============================================================
+system id = GD36_37_VP1853_25
+model = defense-finder-models/DefenseFinder/VP1853/VP1853
+replicon = GD36_37
+clusters = [('GD36_37_6', 'VP1853__VP1853', 705)]
+occ = 1
+wholeness = 1.000
+loci nb = 1
+score = 1.000
+
+mandatory genes:
+	- VP1853__VP1853: 1 (VP1853__VP1853)
+
+accessory genes:
+
+neutral genes:
+
+============================================================
+system id = GD42__GD42_Plasmid1_VP1853_26
+model = defense-finder-models/DefenseFinder/VP1853/VP1853
+replicon = GD42__GD42_Plasmid1
+clusters = [('GD42__GD42_Plasmid1_6', 'VP1853__VP1853', 734)]
+occ = 1
+wholeness = 1.000
+loci nb = 1
+score = 1.000
+
+mandatory genes:
+	- VP1853__VP1853: 1 (VP1853__VP1853)
+
+accessory genes:
+
+neutral genes:
+
+============================================================
+system id = GD47A_16_VP1853_27
+model = defense-finder-models/DefenseFinder/VP1853/VP1853
+replicon = GD47A_16
+clusters = [('GD47A_16_6', 'VP1853__VP1853', 764)]
+occ = 1
+wholeness = 1.000
+loci nb = 1
+score = 1.000
+
+mandatory genes:
+	- VP1853__VP1853: 1 (VP1853__VP1853)
+
+accessory genes:
+
+neutral genes:
+
+============================================================
+system id = GD521_38_VP1853_28
+model = defense-finder-models/DefenseFinder/VP1853/VP1853
+replicon = GD521_38
+clusters = [('GD521_38_6', 'VP1853__VP1853', 793)]
+occ = 1
+wholeness = 1.000
+loci nb = 1
+score = 1.000
+
+mandatory genes:
+	- VP1853__VP1853: 1 (VP1853__VP1853)
+
+accessory genes:
+
+neutral genes:
+
+============================================================
+system id = GD62_27_VP1853_29
+model = defense-finder-models/DefenseFinder/VP1853/VP1853
+replicon = GD62_27
+clusters = [('GD62_27_6', 'VP1853__VP1853', 822)]
+occ = 1
+wholeness = 1.000
+loci nb = 1
+score = 1.000
+
+mandatory genes:
+	- VP1853__VP1853: 1 (VP1853__VP1853)
+
+accessory genes:
+
+neutral genes:
+
+============================================================
+system id = GD72_30_VP1853_30
+model = defense-finder-models/DefenseFinder/VP1853/VP1853
+replicon = GD72_30
+clusters = [('GD72_30_6', 'VP1853__VP1853', 909)]
+occ = 1
+wholeness = 1.000
+loci nb = 1
+score = 1.000
+
+mandatory genes:
+	- VP1853__VP1853: 1 (VP1853__VP1853)
+
+accessory genes:
+
+neutral genes:
+
+============================================================
+system id = GD85_35_VP1853_31
+model = defense-finder-models/DefenseFinder/VP1853/VP1853
+replicon = GD85_35
+clusters = [('GD85_35_6', 'VP1853__VP1853', 938)]
+occ = 1
+wholeness = 1.000
+loci nb = 1
+score = 1.000
+
+mandatory genes:
+	- VP1853__VP1853: 1 (VP1853__VP1853)
+
+accessory genes:
+
+neutral genes:
+
+============================================================
+system id = GD87_44_VP1853_32
+model = defense-finder-models/DefenseFinder/VP1853/VP1853
+replicon = GD87_44
+clusters = [('GD87_44_6', 'VP1853__VP1853', 967)]
+occ = 1
+wholeness = 1.000
+loci nb = 1
+score = 1.000
+
+mandatory genes:
+	- VP1853__VP1853: 1 (VP1853__VP1853)
+
+accessory genes:
+
+neutral genes:
+
+============================================================
+system id = GD95_33_VP1853_33
+model = defense-finder-models/DefenseFinder/VP1853/VP1853
+replicon = GD95_33
+clusters = [('GD95_33_6', 'VP1853__VP1853', 996)]
+occ = 1
+wholeness = 1.000
+loci nb = 1
+score = 1.000
+
+mandatory genes:
+	- VP1853__VP1853: 1 (VP1853__VP1853)
+
+accessory genes:
+
+neutral genes:
+
+============================================================
+system id = pGD69A-1_VP1853_34
+model = defense-finder-models/DefenseFinder/VP1853/VP1853
+replicon = pGD69A-1
+clusters = [('pGD69A-1_6', 'VP1853__VP1853', 851)]
+occ = 1
+wholeness = 1.000
+loci nb = 1
+score = 1.000
+
+mandatory genes:
+	- VP1853__VP1853: 1 (VP1853__VP1853)
+
+accessory genes:
+
+neutral genes:
+
+============================================================
+system id = pGD69B-1_VP1853_35
+model = defense-finder-models/DefenseFinder/VP1853/VP1853
+replicon = pGD69B-1
+clusters = [('pGD69B-1_6', 'VP1853__VP1853', 880)]
+occ = 1
+wholeness = 1.000
+loci nb = 1
+score = 1.000
+
+mandatory genes:
+	- VP1853__VP1853: 1 (VP1853__VP1853)
+
+accessory genes:
+
+neutral genes:
+
+============================================================

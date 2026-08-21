@@ -1,0 +1,40 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /Users/CAM920/.macsyfinder/models/defense-finder-models/profiles/SanaTA__SanaA.hmm
+# target sequence database:        /Users/CAM920/Desktop/mab-plasmid-typing/pB_type_nucleotide.prt_defensefinder.prt
+# output directed to file:         /Users/CAM920/Desktop/mab-plasmid-typing/defense-finder-tmp/DefenseFinder/hmmer_results/SanaTA__SanaA.search_hmm.out
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       SanaTA__SanaA  [M=134]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (134 nodes)
+Target sequences:                       1019  (236273 residues searched)
+Passed MSV filter:                        35  (0.0343474); expected 20.4 (0.02)
+Passed bias filter:                       35  (0.0343474); expected 20.4 (0.02)
+Passed Vit filter:                         0  (0); expected 1.0 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               1019  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 21356.81
+//
+[ok]

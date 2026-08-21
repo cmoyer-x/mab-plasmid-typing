@@ -1,0 +1,175 @@
+INFO     : Macsyfinder 2.1.4 
+using:
+- Python 3.13.5 | packaged by conda-forge | (main, Jun 16 2025, 08:24:05) [Clang 18.1.8 ]
+- NetworkX 3.5
+- Pandas 2.2.3
+
+MacsyFinder is distributed under the terms of the GNU General Public License (GPLv3).
+See the COPYING file for details.
+
+If you use this software please cite:
+Néron, Bertrand; Denise, Rémi; Coluzzi, Charles; Touchon, Marie; Rocha, Eduardo P.C.; Abby, Sophie S.
+MacSyFinder v2: Improved modelling and search engine to identify molecular systems in genomes.
+Peer Community Journal, Volume 3 (2023), article no. e28. doi : 10.24072/pcjournal.250.
+https://peercommunityjournal.org/articles/10.24072/pcjournal.250/
+and don't forget to cite models used:
+macsydata cite <model>
+
+INFO     : command used: /opt/miniconda3/envs/defensefinder/bin/defense-finder run --preserve-raw pB_type_nucleotide.fasta
+INFO     : 
+models used: defense-finder-models-3.1.0
+INFO     : 
+{f' Searching systems ':#^70}
+INFO     : Models Parsing
+INFO     : MacSyFinder's results will be stored in working_dir/Users/CAM920/Desktop/mab-plasmid-typing/defense-finder-tmp/RM
+INFO     : Analysis launched on /Users/CAM920/Desktop/mab-plasmid-typing/pB_type_nucleotide.prt_defensefinder.prt for model(s):
+INFO     : 	- defense-finder-models/RM/RM_Type_IIG/N6_RM_Type_IIG
+INFO     : 	- defense-finder-models/RM/RM_Type_III/N6_N4_RM_Type_III
+INFO     : 	- defense-finder-models/RM/Panchino_gp28/Panchino_gp28
+INFO     : 	- defense-finder-models/RM/McrBC/McrBC
+INFO     : 	- defense-finder-models/RM/RM_Type_I/N6_RM_Type_I
+INFO     : 	- defense-finder-models/RM/GmrSD_RM_Type_IV/GmrSD_RM_Type_IV
+INFO     : 	- defense-finder-models/RM/PrrC/PrrC
+INFO     : 	- defense-finder-models/RM/RM_Type_II/DNA_met_RM_Type_II_PLD
+INFO     : 	- defense-finder-models/RM/RM_Type_II/D12_RM_Type_II_PDDEXK
+INFO     : 	- defense-finder-models/RM/RM_Type_II/N6_N4_RM_Type_II_HNH
+INFO     : 	- defense-finder-models/RM/RM_Type_II/N6_N4_RM_Type_II_PDDEXK
+INFO     : 	- defense-finder-models/RM/RM_Type_II/N6_RM_Type_II_HNH
+INFO     : 	- defense-finder-models/RM/RM_Type_II/DNA_met_RM_Type_II_PDDEXK
+INFO     : 	- defense-finder-models/RM/RM_Type_II/DNA_met_RM_Type_II
+INFO     : 	- defense-finder-models/RM/RM_Type_II/D12_RM_Type_II
+INFO     : 	- defense-finder-models/RM/RM_Type_II/DNA_met_RM_Type_II_HNH
+INFO     : 	- defense-finder-models/RM/RM_Type_II/DNA_met_RM_Type_II_HATPase
+INFO     : 	- defense-finder-models/RM/RM_Type_II/N6_RM_Type_II_HATPase
+INFO     : 	- defense-finder-models/RM/RM_Type_II/D12_RM_Type_II_HNH
+INFO     : 	- defense-finder-models/RM/RM_Type_II/N6_N4_RM_Type_II_PLD
+INFO     : 	- defense-finder-models/RM/RM_Type_II/N6_N4_RM_Type_II
+INFO     : 	- defense-finder-models/RM/RM_Type_II/N6_RM_Type_II_PDDEXK
+INFO     : 	- defense-finder-models/RM/RM_Type_II/N6_N4_RM_Type_II_HATPase
+INFO     : 	- defense-finder-models/RM/PD-Lambda-5/PD-Lambda-5
+INFO     : search gene RM_Type_IV__FAM_2
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_11
+INFO     : search gene RM_Type_IV__Type_IV_01
+INFO     : search gene RM_Type_II__Type_II_REase37
+INFO     : search gene PrrC__EcoprrI
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_39
+INFO     : search gene RM_Type_II__Type_II_REase33
+INFO     : search gene RM__Type_I_S_03
+INFO     : search gene RM_Type_II__Type_II_REase14
+INFO     : search gene RM_Type_IV__FAM_1
+INFO     : search gene RM_Type_III__Type_III_MTases_FAM_0
+INFO     : search gene PD-Lambda-5__PD-Lambda-5_A
+INFO     : search gene RM_Type_II__Type_II_REase21
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_20
+INFO     : search gene Gao_Mza__MzaB
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_41
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_26
+INFO     : search gene RM__Type_I_S_01
+INFO     : search gene RM__Type_I_REases_FAM_0.einsi_trimmed
+INFO     : search gene BREX__pglX1
+INFO     : search gene RM_Type_II__Type_II_REase03
+INFO     : search gene RM_Type_II__Type_II_REase12
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_15
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_8
+INFO     : search gene RM__Type_I_MTases_FAM_0
+INFO     : search gene RM_Type_II__Type_II_REase04
+INFO     : search gene RM__Type_I_MTases_FAM_1
+INFO     : search gene RM_Type_II__Type_II_REase07
+INFO     : search gene RM_Type_IIG__Type_IIG_FAM_0.einsi_trimmed
+INFO     : search gene RM__Type_I_S_04
+INFO     : search gene RM_Type_III__Type_III_MTases_FAM_1
+INFO     : search gene Panchino_gp28__gp28
+INFO     : search gene RM_Type_IIG__Type_IIG_5
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_40
+INFO     : search gene RM_Type_II__Type_II_REase06
+INFO     : search gene RM_Type_II__Type_II_REase26
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_3
+INFO     : search gene RM__Type_I_S_06
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_38
+INFO     : search gene RM_Type_II__Type_II_REase02
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_1
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_12
+INFO     : search gene RM__Type_I_S_51
+INFO     : search gene RM__Type_I_S_52
+INFO     : search gene RM_Type_II__Type_II_REase09
+INFO     : search gene Gao_Mza__MzaC
+INFO     : search gene RM_Type_II__Type_II_REase34
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_36
+INFO     : search gene BREX__pglX3
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_18
+INFO     : search gene RM_Type_II__Type_II_REase27
+INFO     : search gene RM_Type_II__Type_II_REase10
+INFO     : search gene RM_Type_II__Type_II_REase20
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_0
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_7
+INFO     : search gene RM_Type_IIG__Type_IIG_FAM_1.einsi_trimmed
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_23
+INFO     : search gene PD-Lambda-5__PD-Lambda-5_B
+INFO     : search gene RM__Type_I_REases_FAM_1.einsi_trimmed
+INFO     : search gene RM_Type_II__Type_II_REase32
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_33
+INFO     : search gene RM_Type_II__Type_II_REase29
+INFO     : search gene RM__Type_I_S_02
+INFO     : search gene RM_Type_II__Type_II_REase22
+INFO     : search gene RM_Type_II__Type_II_REase35
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_42
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_22
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_25
+INFO     : search gene RM_Type_IIG__Type_IIG_1
+INFO     : search gene RM_Type_III__Type_III_REases_FAM_0.einsi_trimmed
+INFO     : search gene RM_Type_II__Type_II_REase30
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_37
+INFO     : search gene RM_Type_II__Type_II_REase25
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_32
+INFO     : search gene RM_Type_II__Type_II_REase16
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_35
+INFO     : search gene RM_Type_IIG__Type_IIG_3
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_34
+INFO     : search gene RM_Type_II__Type_II_REase28
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_4
+INFO     : search gene RM_Type_II__Type_II_REase31
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_31
+INFO     : search gene BREX__pglX2
+INFO     : search gene RM__Type_I_MTases_FAM_2
+INFO     : search gene RM__Type_I_MTases_FAM_3
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_2
+INFO     : search gene RM_Type_IV__Type_IV_22
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_29
+INFO     : search gene RM_Type_IIG__Type_IIG_4
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_28
+INFO     : search gene RM_Type_III__Type_III_REases_FAM_1.einsi_trimmed
+INFO     : search gene RM_Type_II__Type_II_REase17
+INFO     : search gene RM_Type_II__Type_II_REase19
+INFO     : search gene RM_Type_IV__Type_IV_21
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_24
+INFO     : search gene RM_Type_II__Type_II_REase08
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_10
+INFO     : search gene RM_Type_II__Type_II_REase13
+INFO     : search gene RM_Type_II__Type_II_REase01
+INFO     : search gene RM_Type_II__Type_II_REase11
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_13
+INFO     : search gene RM_Type_IIG__Type_IIG_FAM_2.einsi_trimmed
+INFO     : search gene RM_Type_II__Type_II_REase23
+INFO     : search gene PrrC__PrrC
+INFO     : search gene RM_Type_II__Type_II_REase18
+INFO     : search gene RM_Type_II__Type_II_REase15
+INFO     : search gene DISARM_1__drmMI
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_27
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_21
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_30
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_16
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_19
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_6
+INFO     : search gene RM_Type_II__Type_II_REase38
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_5
+INFO     : search gene RM__Type_I_REases_FAM_2.einsi_trimmed
+INFO     : search gene RM_Type_II__Type_II_REase05
+INFO     : search gene RM_Type_II__Type_II_MTases_FAM_14
+INFO     : search gene RM_Type_II__Type_II_REase24
+INFO     : search gene RM_Type_IIG__Type_IIG_2
+INFO     : 
+{f' Computing best solutions ':#^70}
+INFO     : 
+#################### Writing down results in 'RM' ####################
+INFO     : No Systems found in this dataset.
+INFO     : END
