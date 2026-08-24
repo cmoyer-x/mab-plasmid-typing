@@ -112,6 +112,29 @@ python scripts/05_build_hypothetical_plasmids.py \
   --plasmid-fastas-dir plasmids_expanded/plasmid_fastas \
   --reference-fasta reference_plasmids_expanded.fasta \
   --output-dir hypothetical_plasmids/
+
+# 7. (optional) Re-run gene-content typing including the hypothetical
+#    plasmids - reuses already-called genes for the original complete
+#    units, only calls genes for the new hypothetical ones, but always
+#    rebuilds the pham/cluster space since new sequences change gene-family
+#    assignments for everyone
+python scripts/03_type_plasmids_phamclust.py \
+  --plasmid-fastas-dir plasmids_expanded/plasmid_fastas \
+  --summary-tsv plasmids_expanded/plasmid_extraction_summary.tsv \
+  --hypothetical-fastas-dir hypothetical_plasmids/hypothetical_plasmid_fastas \
+  --output-dir plasmid_phamclust_with_hypothetical/ \
+  --threads 8
+
+# 8. Final typing including hypothetical plasmids, with stable cluster
+#    labels preserved from the previous (complete-units-only) run
+python scripts/04_assign_final_plasmid_types.py \
+  --summary-tsv plasmids_expanded/plasmid_extraction_summary.tsv \
+  --plasmid-fastas-dir plasmids_expanded/plasmid_fastas \
+  --hypothetical-fastas-dir hypothetical_plasmids/hypothetical_plasmid_fastas \
+  --all-genes-faa plasmid_phamclust_with_hypothetical/all_genes.faa \
+  --similarity-matrix plasmid_phamclust_with_hypothetical/phamclust_results/pairwise_peq_similarities.tsv \
+  --previous-types-tsv plasmid_final_types.tsv \
+  --output plasmid_final_types_with_hypothetical.tsv
 ```
 
 ## Methodology notes / lessons learned
@@ -149,6 +172,17 @@ python scripts/05_build_hypothetical_plasmids.py \
   reference plasmid's own length - this caught several 300-365 kb chimeric
   constructs built from an 80.8 kb reference (`pGD509`) before they could
   contaminate downstream typing.
+- **Novel cluster letters (pI, pJ, pK...) are not stable across separate
+  runs by default** - they get re-derived from scratch each run, ranked by
+  cluster size in that specific run. Adding the 89 hypothetical plasmids
+  changed the size ranking of every novel cluster and reshuffled most of
+  the letters. Fix: `04_assign_final_plasmid_types.py` now accepts
+  `--previous-types-tsv`, matching each new cluster against a prior run's
+  labels by majority membership overlap (>=50%) and reusing that label
+  when found, only minting a fresh letter for clusters with no real
+  precedent. Always pass this pointing at the previous run's output when
+  the underlying data changes (new genomes, added hypothetical plasmids,
+  etc.) to keep type labels meaningful across the project's lifetime.
 
 ## Notable downstream findings
 
@@ -163,9 +197,11 @@ python scripts/05_build_hypothetical_plasmids.py \
   pattern**: significantly higher phage susceptibility (mean EOP 0.103 vs
   0.056, FDR p = 0.005) and 0% carry any detected defense system - a clean,
   mechanistically consistent counter-example.
-- **`pK`, a novel cluster not in the original 2021 catalog, is perfectly
+- **`pL`, a novel cluster not in the original 2021 catalog, is perfectly
   restricted to DCC7** (4/4 carriers, FDR p = 5.3e-4) - strong evidence of
-  clonal inheritance for a previously-undescribed plasmid type.
+  clonal inheritance for a previously-undescribed plasmid type. (Note:
+  earlier notes referred to this cluster as `pK` before the stable-labeling
+  fix was in place - `pL` is the correct, stable label.)
 - **`pC` (47 carriers, the largest type) is significantly excluded from
   DCC5** (0/47 carriers in that clonal complex) - a genuine depletion
   signal worth its own follow-up.
@@ -174,27 +210,33 @@ python scripts/05_build_hypothetical_plasmids.py \
 ## Current cohort result
 
 - 425 genomes total; 347 with an identified plasmid via extraction (81.6%).
-- 210 complete plasmid units typed (after excluding PhiX contamination and
-  short fragments): 154 match a paper-defined cluster (pA-pH or a named
-  singleton), 51 form 10 novel cohort-specific clusters (pI-pR) plus
-  singletons.
-- 89 additional "hypothetical" plasmids reconstructed from multi-fragment
-  BLAST-homology hits (of 124 candidates; 35 rejected as implausible
-  chimeric groupings) - not yet run through gene-content typing.
-- Notable novel finding: a 10-member ~13.5 kb plasmid type (pI) with no
+- 317 plasmid units typed in total: 220 complete units (from `circular`,
+  `handcurated`, `direct_strain_reference` methods) plus 97 hypothetical
+  units reconstructed from multi-fragment BLAST-homology hits (89 of which
+  passed the plausibility filter in `05_build_hypothetical_plasmids.py`;
+  the rest were filtered as too short/too few genes once run through the
+  same typing pipeline as everything else).
+- Paper-cluster matches (anchor + nearest-anchor) and novel cohort-specific
+  clusters (pI-pR-range letters, stably tracked across runs via
+  `--previous-types-tsv`) span the full 317-unit set.
+- Notable novel finding: a 10-member ~13.5 kb plasmid type (`pI`) with no
   representative in the original 2021 catalog.
-- Notable relationship: two novel clusters each have a larger relative whose
-  gene content is a near-total superset (95-100%) of the smaller type plus
-  16-27 additional gene families - consistent with a fusion/cointegrate or
-  deletion-derivative relationship, worth dedicated follow-up.
+- Notable relationship: `pK` (`GD10_13`/`GD272`/`GD276A-2`/`GD276B-2`, plus
+  2 hypothetical members added after typing) has a smaller relative whose
+  gene content is a near-total subset (95-100%) of the larger type - see
+  methodology notes above (fusion/cointegrate or deletion-derivative
+  relationship, worth dedicated follow-up).
 
 ## Open items
 
-- [ ] Type the 89 hypothetical plasmids (feed through steps 4's gene-calling
-  and nearest-anchor logic) so every plasmid-positive genome has a final
-  type label, not just the 210 complete units.
+- [x] Type the hypothetical plasmids (done - see combined 317-unit result
+  above).
+- [x] Fix novel-cluster label stability across runs (done - see
+  `--previous-types-tsv`).
 - [ ] Add `pMAB23` into the gene-calling anchor set to resolve the
   `pATCC19977` mismatch noted above.
 - [ ] Extend the DefenseFinder/EOP/DCC association checks to the remaining
-  typed clusters (only pA, pB, pC, pD, pF, pG, pH, pK checked so far).
-
+  typed clusters (only pA, pB, pC, pD, pF, pG, pH, pL checked so far).
+- [ ] Re-run the DCC/EOP association scripts against the combined 317-unit
+  typing table (`plasmid_final_types_with_hypothetical_v2.tsv`) rather than
+  the original 210-unit table, now that hypothetical plasmids are typed.
